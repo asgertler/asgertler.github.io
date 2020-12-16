@@ -1,16 +1,22 @@
+import Container from 'react-bootstrap/Container'
 import Navbar from 'react-bootstrap/Navbar'
-import Logo from '../img/ag-logo_clr.svg';
+// import Logo from '../img/ag-logo_clr.svg';
 import './NavBar.scss'
 
 export const NavBar = () => {
     return (
-        <Navbar fixed='top' bg='dark' variant='dark' className="navBar">
-            <img src={Logo} alt='logo' className='navBarLogo' />
-
-            <div className="navBarName">
-                <h1>Aaron Gertler</h1>
-                <h4>UI/UX Designer & Front-End Developer</h4>
-            </div>
-        </Navbar>
+        <Container>
+            <Navbar expand='lg' variant='light' bg='light'>
+                <Navbar.Brand href='#'>
+                    <h1>Aaron Gertler</h1>
+                </Navbar.Brand>
+                <Navbar.Toggle />
+                <Navbar.Collapse className="justify-content-end">
+                    <Navbar.Text>
+                        Signed in as: <a href="#login">Mark Otto</a>
+                    </Navbar.Text>
+                </Navbar.Collapse>
+            </Navbar>
+        </Container>
     )
 }
