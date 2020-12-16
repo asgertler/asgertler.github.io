@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import Logo from './img/ag-logo_clr.svg';
 import './App.scss';
 
 function App() {
@@ -6,8 +6,7 @@ function App() {
     <div className="app">
       <header className="appHeader">
         <div className="appHeaderBranding">
-          <h1>AARON GERTLER</h1>
-          <h4>UI/UX Designer & Front-End Developer</h4>
+          <h1>Aaron Gertler</h1>
         </div>
       </header>
     </div>
