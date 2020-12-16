@@ -1,4 +1,5 @@
 import Container from 'react-bootstrap/Container'
+import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import Logo from '../img/ag-logo_clr.svg';
 import './NavBar.scss'
@@ -19,12 +20,12 @@ export const NavBar = () => {
                     <h1 id='myName'>Aaron Gertler</h1>
                 </Navbar.Brand>
 
-                <Navbar.Toggle />
-
-                <Navbar.Collapse className="justify-content-end">
-                    <Navbar.Text>
-                        Signed in as: <a href="#login">Mark Otto</a>
-                    </Navbar.Text>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="ml-auto">
+                        <Nav.Link href="#home">Development</Nav.Link>
+                        <Nav.Link href="#link">Design</Nav.Link>
+                    </Nav>
                 </Navbar.Collapse>
             </Navbar>
         </Container>
