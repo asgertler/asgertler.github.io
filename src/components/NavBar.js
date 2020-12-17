@@ -29,9 +29,9 @@ export const NavBar = () => {
                         <Nav.Link href="#development">Development</Nav.Link>
                         <Nav.Link href="#design">Design</Nav.Link>
                         <div className='navBarSocial'>
-                            <Nav.Link href='#github'><FaGithub /></Nav.Link>
-                            <Nav.Link href='#dribbble'><FaDribbble /></Nav.Link>
-                            <Nav.Link href='#linkedin'><FaLinkedin /></Nav.Link>
+                            <Nav.Link href='https://github.com/asgertler' target='_blank'><FaGithub /></Nav.Link>
+                            <Nav.Link href='https://dribbble.com/aarongertler' target='_blank'><FaDribbble /></Nav.Link>
+                            <Nav.Link href='https://www.linkedin.com/in/asgertler/' target='_blank'><FaLinkedin /></Nav.Link>
                         </div>
                     </Nav>
                 </Navbar.Collapse>
