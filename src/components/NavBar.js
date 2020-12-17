@@ -13,7 +13,7 @@ export const NavBar = () => {
             <Container>
                 <Navbar.Brand href='#' className='navBarLogo' id='logoLink'>
                     <img src={Logo} alt='logo' className='d-inline-block align-top'
-                        height='50px' width='auto'
+                        height='40px' width='auto'
                     />
 
                     <h1 id='myName'>Aaron Gertler</h1>
