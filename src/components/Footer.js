@@ -15,7 +15,7 @@ export const Footer = () => {
             <Container>
                 <Nav className='ml-auto mr-auto'>
                     <Navbar.Text id='copyright'>
-                        Copyright © {year} Aaron Gertler. All Rights Reserved. |
+                        Copyright © {year} Aaron Gertler.
                     </Navbar.Text>
 
                     <Nav.Link href='https://github.com/asgertler' target='_blank'><FaGithub /></Nav.Link>
