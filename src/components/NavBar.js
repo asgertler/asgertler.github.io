@@ -4,13 +4,18 @@ import Navbar from 'react-bootstrap/Navbar'
 import { FaDribbble } from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
+import Logo from '../img/ag-logo_clr.svg'
 import './NavBar.scss'
 
 export const NavBar = () => {
     return (
         <Navbar expand='lg' variant='light' bg='light' id='mainNav'>
             <Container>
-                <Navbar.Brand href='#' className='navBarLogo'>
+                <Navbar.Brand href='#' className='navBarLogo' id='logoLink'>
+                    <img src={Logo} alt='logo' className='d-inline-block align-top'
+                        height='50px' width='auto'
+                    />
+
                     <h1 id='myName'>Aaron Gertler</h1>
                 </Navbar.Brand>
 
