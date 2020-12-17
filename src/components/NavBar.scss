@@ -5,16 +5,9 @@
 }
 
 #myName {
+    color: $dark;
     font-size: 1.5rem;
     margin: auto 0;
-    display: inline-block;
-    line-height: 30px;
-    vertical-align: middle;
-}
-
-.navBarLogo img {
-    border-radius: 1rem;
-    margin-right: 0.5rem;
 }
 
 .navBarSocial {

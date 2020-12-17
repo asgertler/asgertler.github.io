@@ -4,11 +4,11 @@ import Navbar from 'react-bootstrap/Navbar'
 import { FaDribbble } from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
-import './NavBar.scss'
+import './Footer.scss'
 
-export const NavBar = () => {
+export const Footer = () => {
     return (
-        <Navbar expand='lg' variant='light' bg='light' id='mainNav'>
+        <Navbar expand='lg' variant='light' bg='light' fixed='bottom' id='footer'>
             <Container>
                 <Navbar.Brand href='#' className='navBarLogo'>
                     <h1 id='myName'>Aaron Gertler</h1>
