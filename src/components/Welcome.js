@@ -17,6 +17,10 @@ export const Welcome = () => {
                     }}
                 />
             </h2>
+
+            <h3>I focus on the front-end and UI/UX</h3>
+
+            <p>Test copy</p>
         </Container>
     )
 }

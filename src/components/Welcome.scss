@@ -1,5 +1,9 @@
+@import '../_variables';
+
 #welcomeContainer {
-    background-color: tomato;
+    background-image: url('../img/sydney.jpg');
+    background-size: cover;
+    background-position: center top;
     padding: 1rem;
 }
 
