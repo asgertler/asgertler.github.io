@@ -1,9 +1,11 @@
 import Container from 'react-bootstrap/Container'
 import Typewriter from 'typewriter-effect'
 
+import './Welcome.scss'
+
 export const Welcome = () => {
     return (
-        <Container>
+        <Container id='welcomeContainer'>
             <h2>
                 <span>Hi, I'm </span>
 
