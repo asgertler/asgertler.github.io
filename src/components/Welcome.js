@@ -11,11 +11,11 @@ export const Welcome = () => {
     return (
         <Container id='welcomeContainer'>
             <Row>
-                <Col className='welcomeRight' sm={{ order: 'last' }}>
-                    <img src={Avatar} alt='avatar' id='avatar' className='.d-sm-none .d-md-block' />
+                <Col className='welcomeRight' sm={{ span: 3, order: 'last' }}>
+                    <img src={Avatar} alt='avatar' id='avatar' />
                 </Col>
 
-                <Col className="welcomeLeft" sm={{ order: 'first' }}>
+                <Col className="welcomeLeft" sm={{ span: 9, order: 'first' }}>
                     <h2>
                         <span>Hi, I'm </span>
 
