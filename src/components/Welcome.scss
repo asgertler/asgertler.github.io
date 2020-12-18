@@ -1,13 +1,23 @@
 @import '../_variables';
 
 #welcomeContainer {
-    background-image: url('../img/sydney.jpg');
-    background-size: cover;
-    background-position: center top;
-    padding: 1rem;
+    color: white;
+    background-image: url('../img/prism.png');
+    background-size: tile;
+    padding: 2rem;
 }
 
 #welcomeContainer h2 {
     font-weight: bold;
-    margin: 0;
+    margin: 0 0 1rem 0;
+}
+
+#welcomeContainer h5 {
+    margin: 0 0 1rem 0;
+}
+
+#avatar {
+    height: 15rem;
+    width: auto;
+    float: right;
 }

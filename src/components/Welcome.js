@@ -1,26 +1,38 @@
+import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
 import Typewriter from 'typewriter-effect'
+
+import Avatar from '../img/ag-avatar.png'
 
 import './Welcome.scss'
 
 export const Welcome = () => {
     return (
         <Container id='welcomeContainer'>
-            <h2>
-                <span>Hi, I'm </span>
+            <Row>
+                <Col className='welcomeRight' sm={{ order: 'last' }}>
+                    <img src={Avatar} alt='avatar' id='avatar' className='.d-sm-none .d-md-block' />
+                </Col>
 
-                <Typewriter
-                    options={{
-                        strings: ['Aaron', 'a Creator', 'a Designer', 'a Developer'],
-                        autoStart: true,
-                        loop: true,
-                    }}
-                />
-            </h2>
+                <Col className="welcomeLeft" sm={{ order: 'first' }}>
+                    <h2>
+                        <span>Hi, I'm </span>
 
-            <h3>I focus on the front-end and UI/UX</h3>
+                        <Typewriter
+                            options={{
+                                strings: ['Aaron', 'a Creator', 'a Designer', 'a Developer'],
+                                autoStart: true,
+                                loop: true,
+                            }}
+                        />
+                    </h2>
 
-            <p>Test copy</p>
+                    <h5>I focus on the front-end & UI/UX</h5>
+
+                    <p>I build human-centric applications.</p>
+                </Col>
+            </Row>
         </Container>
     )
 }
