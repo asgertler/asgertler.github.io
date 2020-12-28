@@ -11,8 +11,8 @@ let year = today.getFullYear()
 
 export const Footer = () => {
     return (
-        <Navbar expand='lg' variant='light' bg='light' fixed='bottom' id='footer'>
-            <Container>
+        <Container id='footerContainer'>
+            <Navbar expand='lg' variant='light' bg='light' sticky='bottom' id='footer'>
                 <Nav className='ml-auto mr-auto'>
                     <Navbar.Text id='copyright'>
                         Copyright © {year} Aaron Gertler.
@@ -22,7 +22,7 @@ export const Footer = () => {
                     <Nav.Link href='https://dribbble.com/aarongertler' target='_blank'><FaDribbble /></Nav.Link>
                     <Nav.Link href='https://www.linkedin.com/in/asgertler/' target='_blank'><FaLinkedin /></Nav.Link>
                 </Nav>
-            </Container>
-        </Navbar>
+            </Navbar>
+        </Container >
     )
 }

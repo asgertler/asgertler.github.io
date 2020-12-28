@@ -1,5 +1,9 @@
 @import '../_variables';
 
+#navBarContainer {
+    padding: 0;
+}
+
 #mainNav {
     background-color: $e !important;
     padding: 1rem;

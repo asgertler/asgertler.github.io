@@ -9,8 +9,8 @@ import './NavBar.scss'
 
 export const NavBar = () => {
     return (
-        <Navbar expand='lg' variant='light' bg='light' id='mainNav'>
-            <Container>
+        <Container id='navBarContainer'>
+            <Navbar expand='lg' variant='light' bg='light' id='mainNav' sticky='top'>
                 <Navbar.Brand href='#' className='navBarLogo' id='logoLink'>
                     <img src={Logo} alt='logo' className='d-inline-block align-top'
                         height='40px' width='auto'
@@ -31,7 +31,7 @@ export const NavBar = () => {
                         </div>
                     </Nav>
                 </Navbar.Collapse>
-            </Container>
-        </Navbar>
+            </Navbar>
+        </Container>
     )
 }
