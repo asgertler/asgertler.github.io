@@ -1,5 +1,6 @@
 import { NavBar } from './components/NavBar'
 import { Welcome } from './components/Welcome'
+import { Tech } from './components/Tech'
 import { Footer } from './components/Footer'
 import './App.scss';
 
@@ -9,6 +10,8 @@ function App() {
       <NavBar />
 
       <Welcome />
+
+      <Tech />
 
       <Footer />
     </div>

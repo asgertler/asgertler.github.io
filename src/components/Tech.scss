@@ -1,0 +1,13 @@
+@import '../_variables';
+
+#techContainer {
+    color: $dark;
+    background-color: $e;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+#techContainer h4 {
+    font-weight: bold;
+    margin: 0 0 .5rem 0;
+}
