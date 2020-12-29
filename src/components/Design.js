@@ -16,12 +16,12 @@ import { SiVisualstudiocode } from 'react-icons/si'
 import { SiWordpress } from 'react-icons/si'
 import { FaCheck } from 'react-icons/fa'
 
-import './Tech.scss'
+import './Design.scss'
 
-export const Tech = () => {
+export const Design = () => {
     return (
-        <Col className='techList' xs={12} md={6}>
-            <h4>Technical Skills</h4>
+        <Col className='designList' xs={12} md={6}>
+            <h4>Design Skills</h4>
 
             <Button size='sm'>
                 <SiBootstrap style={{ color: '#61dafb' }} />&nbsp; Bootstrap

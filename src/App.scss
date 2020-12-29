@@ -2,7 +2,24 @@
 
 #skillsContainer {
     color: $dark;
-    background-color: $e;
-    padding: 2rem;
     margin-top: 1rem;
+}
+
+#skillsContainer h4 {
+    font-weight: bold;
+    margin: 0 0 .5rem 0;
+}
+
+#skillsContainer button {
+    background-color: #333;
+    border-color: #333;
+    margin: .5rem .5rem 0 0;
+}
+
+#skillsContainer button:last-child {
+    margin: .5rem 0 0 0;
+}
+
+#skillsContainer button svg {
+    margin-bottom: .15rem;
 }

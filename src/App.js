@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row'
 
 import { NavBar } from './components/NavBar'
 import { Welcome } from './components/Welcome'
+import { Design } from './components/Design'
 import { Tech } from './components/Tech'
 import { Footer } from './components/Footer'
 import './App.scss';
@@ -16,6 +17,7 @@ function App() {
 
       <Container id='skillsContainer'>
         <Row>
+          <Design />
           <Tech />
         </Row>
       </Container>

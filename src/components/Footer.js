@@ -18,8 +18,8 @@ export const Footer = () => {
                         Copyright © {year} Aaron Gertler.
                     </Navbar.Text>
 
-                    <Nav.Link href='https://github.com/asgertler' target='_blank'><FaGithub /></Nav.Link>
                     <Nav.Link href='https://dribbble.com/aarongertler' target='_blank'><FaDribbble /></Nav.Link>
+                    <Nav.Link href='https://github.com/asgertler' target='_blank'><FaGithub /></Nav.Link>
                     <Nav.Link href='https://www.linkedin.com/in/asgertler/' target='_blank'><FaLinkedin /></Nav.Link>
                 </Nav>
             </Navbar>
