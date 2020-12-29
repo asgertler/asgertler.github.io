@@ -2,9 +2,7 @@
 
 #welcomeContainer {
     color: white;
-    background-image: url('../img/prism.png');
-    background-size: tile;
-    padding: 2rem;
+    padding: 0 1.5rem;
 }
 
 #welcomeContainer h2 {
@@ -16,8 +14,16 @@
     margin: 0 0 1rem 0;
 }
 
+#welcomeRow {
+    background-image: url('../img/prism.png');
+    padding: 2rem;
+}
+
+.welcomeSides {
+    padding: 0;
+}
+
 #avatar {
     height: auto;
     width: 100%;
-    float: right;
 }

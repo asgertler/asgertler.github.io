@@ -10,12 +10,12 @@ import './Welcome.scss'
 export const Welcome = () => {
     return (
         <Container id='welcomeContainer'>
-            <Row>
-                <Col className='welcomeRight' sm={{ span: 3, order: 'last' }}>
+            <Row id='welcomeRow'>
+                <Col className='welcomeSides d-none d-md-block' sm={{ span: 3, order: 'last' }}>
                     <img src={Avatar} alt='avatar' id='avatar' />
                 </Col>
 
-                <Col className="welcomeLeft" sm={{ span: 9, order: 'first' }}>
+                <Col className="welcomeSides" sm={{ span: 9, order: 'first' }}>
                     <h2>
                         <span>Hi, I'm </span>
 
