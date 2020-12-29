@@ -1,7 +1,5 @@
 import Button from 'react-bootstrap/Button'
 import Col from 'react-bootstrap/Col'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
 
 import { SiBootstrap } from 'react-icons/si'
 import { SiCss3 } from 'react-icons/si'
@@ -22,68 +20,64 @@ import './Tech.scss'
 
 export const Tech = () => {
     return (
-        <Container id='techContainer'>
-            <Row>
-                <Col className='techList'>
-                    <h4>Technological Skills</h4>
+        <Col className='techList'>
+            <h4>Technological Skills</h4>
 
-                    <Button size='sm' variant='secondary'>
-                        <SiBootstrap /> Bootstrap
+            <Button size='sm' variant='secondary'>
+                <SiBootstrap /> Bootstrap
                     </Button>
 
-                    <Button size='sm' variant='secondary'>
-                        <SiCss3 /> CSS3
+            <Button size='sm' variant='secondary'>
+                <SiCss3 /> CSS3
                     </Button>
 
-                    <Button size='sm' variant='secondary'>
-                        <SiFirebase /> Firebase
+            <Button size='sm' variant='secondary'>
+                <SiFirebase /> Firebase
                     </Button>
 
-                    <Button size='sm' variant='secondary'>
-                        <SiGithub /> GitHub
+            <Button size='sm' variant='secondary'>
+                <SiGithub /> GitHub
                     </Button>
 
-                    <Button size='sm' variant='secondary'>
-                        <SiHtml5 /> HTML5
+            <Button size='sm' variant='secondary'>
+                <SiHtml5 /> HTML5
                     </Button>
 
-                    <Button size='sm' variant='secondary'>
-                        <SiJavascript /> Javascript
+            <Button size='sm' variant='secondary'>
+                <SiJavascript /> Javascript
                     </Button>
 
-                    <Button size='sm' variant='secondary'>
-                        <SiLinux /> Linux
+            <Button size='sm' variant='secondary'>
+                <SiLinux /> Linux
                     </Button>
 
-                    <Button size='sm' variant='secondary'>
-                        <SiNodeDotJs /> Node.js
+            <Button size='sm' variant='secondary'>
+                <SiNodeDotJs /> Node.js
                     </Button>
 
-                    <Button size='sm' variant='secondary'>
-                        <SiReact /> React
+            <Button size='sm' variant='secondary'>
+                <SiReact /> React
                     </Button>
 
-                    <Button size='sm' variant='secondary'>
-                        <SiSass /> SASS
+            <Button size='sm' variant='secondary'>
+                <SiSass /> SASS
                     </Button>
 
-                    <Button size='sm' variant='secondary'>
-                        <SiSellfy /> SemanticUI
+            <Button size='sm' variant='secondary'>
+                <SiSellfy /> SemanticUI
                     </Button>
 
-                    <Button size='sm' variant='secondary'>
-                        <SiVisualstudiocode /> VSCode
+            <Button size='sm' variant='secondary'>
+                <SiVisualstudiocode /> VSCode
                     </Button>
 
-                    <Button size='sm' variant='secondary'>
-                        <SiWordpress /> Wordpress
+            <Button size='sm' variant='secondary'>
+                <SiWordpress /> Wordpress
                     </Button>
 
-                    <Button size='sm' variant='secondary'>
-                        <FaCheck /> Wrike
+            <Button size='sm' variant='secondary'>
+                <FaCheck /> Wrike
                     </Button>
-                </Col>
-            </Row>
-        </Container>
+        </Col>
     )
 }
