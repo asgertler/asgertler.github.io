@@ -21,63 +21,64 @@ import './Tech.scss'
 export const Tech = () => {
     return (
         <Col className='techList' xs={12} md={6}>
-            <h4>Technical Skills</h4>
+            <h4>Development Skills</h4>
+            <hr />
 
             <Button size='sm'>
                 <SiBootstrap style={{ color: '#61dafb' }} />&nbsp; Bootstrap
-                    </Button>
+                </Button>
 
             <Button size='sm'>
                 <SiCss3 style={{ color: 'dodgerblue' }} />&nbsp; CSS3
-                    </Button>
+                </Button>
 
             <Button size='sm'>
                 <SiFirebase style={{ color: '#FFCA28' }} />&nbsp; Firebase
-                    </Button>
+                </Button>
 
             <Button size='sm'>
                 <SiGithub style={{ color: '#fafafa' }} />&nbsp; GitHub
-                    </Button>
+                </Button>
 
             <Button size='sm'>
                 <SiHtml5 style={{ color: '#f06529' }} />&nbsp; HTML5
-                    </Button>
+                </Button>
 
             <Button size='sm'>
                 <SiJavascript style={{ color: '#fcdc00' }} />&nbsp; Javascript
-                    </Button>
+                </Button>
 
             <Button size='sm'>
                 <SiLinuxfoundation style={{ color: '#0099cc' }} />&nbsp; Linux
-                    </Button>
+                </Button>
 
             <Button size='sm'>
                 <SiNodeDotJs style={{ color: '#83cd29' }} />&nbsp; Node.js
-                    </Button>
+                </Button>
 
             <Button size='sm'>
                 <SiReact style={{ color: '#61dafb' }} />&nbsp; React
-                    </Button>
+                </Button>
 
             <Button size='sm'>
                 <SiSass style={{ color: '#c69' }} />&nbsp; SASS
-                    </Button>
+                </Button>
 
             <Button size='sm'>
                 <SiSellfy style={{ color: '#00B5AD' }} />&nbsp; SemanticUI
-                    </Button>
+                </Button>
 
             <Button size='sm'>
                 <SiVisualstudiocode style={{ color: '#0078d7 ' }} />&nbsp; VSCode
-                    </Button>
+                </Button>
 
             <Button size='sm'>
                 <SiWordpress style={{ color: '#00A0D2' }} />&nbsp; Wordpress
-                    </Button>
+                </Button>
 
             <Button size='sm'>
                 <FaCheck style={{ color: '#08cf65' }} />&nbsp; Wrike
-                    </Button>
+                </Button>
         </Col>
     )
 }

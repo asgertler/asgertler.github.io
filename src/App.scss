@@ -7,6 +7,11 @@
 
 #skillsContainer h4 {
     font-weight: bold;
+    margin: 0 0 .25rem 0;
+}
+
+#skillsContainer hr {
+    border: $dark solid .5px;
     margin: 0 0 .5rem 0;
 }
 

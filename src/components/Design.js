@@ -7,8 +7,10 @@ import { FaPen } from 'react-icons/fa'
 import { SiFigma } from 'react-icons/si'
 import { SiAdobeillustrator } from 'react-icons/si'
 import { SiAdobeindesign } from 'react-icons/si'
+import { FaSitemap } from 'react-icons/fa'
 import { SiAdobelightroomclassic } from 'react-icons/si'
 import { SiAdobephotoshop } from 'react-icons/si'
+import { FaWrench } from 'react-icons/fa'
 import { FaUserAlt } from 'react-icons/fa'
 
 import './Design.scss'
@@ -16,43 +18,52 @@ import './Design.scss'
 export const Design = () => {
     return (
         <Col className='designList' xs={12} md={6}>
-            <h4>Design Skills</h4>
+            <h4>UI/UX Skills</h4>
+            <hr />
 
             <Button size='sm'>
                 <SiAdobexd style={{ color: '#F75EEE', backgroundColor: '#450135' }} />&nbsp; Adobe XD
-                    </Button>
+            </Button>
 
             <Button size='sm'>
                 <FaPaintBrush style={{ color: 'mediumspringgreen' }} />&nbsp; Branding
-                    </Button>
+            </Button>
 
             <Button size='sm'>
                 <FaPen style={{ color: 'gold' }} />&nbsp; Copywriting
-                    </Button>
+            </Button>
 
             <Button size='sm'>
                 <SiFigma style={{ color: '#F24E1E' }} />&nbsp; Figma
-                    </Button>
+            </Button>
 
             <Button size='sm'>
                 <SiAdobeillustrator style={{ color: '#F79500', backgroundColor: '#310000' }} />&nbsp; Illustrator
-                    </Button>
+            </Button>
 
             <Button size='sm'>
                 <SiAdobeindesign style={{ color: '#F73163', backgroundColor: '#47021E' }} />&nbsp; InDesign
-                    </Button>
+            </Button>
+
+            <Button size='sm'>
+                <FaSitemap style={{ color: 'cyan' }} />&nbsp; Journey Mapping
+            </Button>
 
             <Button size='sm'>
                 <SiAdobelightroomclassic style={{ color: '#2FA3F7', backgroundColor: '#001D34' }} />&nbsp; Lightroom
-                    </Button>
+            </Button>
 
             <Button size='sm'>
                 <SiAdobephotoshop style={{ color: '#2FA3F7', backgroundColor: '#001D34' }} />&nbsp; Photoshop
-                    </Button>
+            </Button>
+
+            <Button size='sm'>
+                <FaWrench style={{ color: 'lightsteelblue' }} />&nbsp; Prototyping
+            </Button>
 
             <Button size='sm'>
                 <FaUserAlt style={{ color: 'dodgerblue' }} />&nbsp; User Testing
-                    </Button>
+            </Button>
         </Col>
     )
 }

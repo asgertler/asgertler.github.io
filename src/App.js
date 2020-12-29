@@ -17,8 +17,8 @@ function App() {
 
       <Container id='skillsContainer'>
         <Row>
-          <Design />
           <Tech />
+          <Design />
         </Row>
       </Container>
 

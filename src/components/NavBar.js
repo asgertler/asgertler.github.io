@@ -22,8 +22,8 @@ export const NavBar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
-                        <Nav.Link href="#design">Design</Nav.Link>
                         <Nav.Link href="#development">Development</Nav.Link>
+                        <Nav.Link href="#design">UI/UX</Nav.Link>
                         <div className='navBarSocial'>
                             <Nav.Link href='https://dribbble.com/aarongertler' target='_blank'><FaDribbble /></Nav.Link>
                             <Nav.Link href='https://github.com/asgertler' target='_blank'><FaGithub /></Nav.Link>
