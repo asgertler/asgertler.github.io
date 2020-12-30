@@ -25,9 +25,17 @@ export const NavBar = () => {
                         <Nav.Link href="#development">Development</Nav.Link>
                         <Nav.Link href="#design">UI/UX</Nav.Link>
                         <div className='navBarSocial'>
-                            <Nav.Link href='https://dribbble.com/aarongertler' target='_blank'><FaDribbble /></Nav.Link>
-                            <Nav.Link href='https://github.com/asgertler' target='_blank'><FaGithub /></Nav.Link>
-                            <Nav.Link href='https://www.linkedin.com/in/asgertler/' target='_blank'><FaLinkedin /></Nav.Link>
+                            <Nav.Link href='https://dribbble.com/aarongertler' target='_blank'>
+                                <FaDribbble style={{ marginBottom: '.15rem' }} />
+                            </Nav.Link>
+
+                            <Nav.Link href='https://github.com/asgertler' target='_blank'>
+                                <FaGithub style={{ marginBottom: '.15rem' }} />
+                            </Nav.Link>
+
+                            <Nav.Link href='https://www.linkedin.com/in/asgertler/' target='_blank'>
+                                <FaLinkedin style={{ marginBottom: '.15rem' }} />
+                            </Nav.Link>
                         </div>
                     </Nav>
                 </Navbar.Collapse>

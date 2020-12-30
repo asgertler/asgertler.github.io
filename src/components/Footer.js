@@ -18,9 +18,17 @@ export const Footer = () => {
                         Copyright © {year} Aaron Gertler.
                     </Navbar.Text>
 
-                    <Nav.Link href='https://dribbble.com/aarongertler' target='_blank'><FaDribbble /></Nav.Link>
-                    <Nav.Link href='https://github.com/asgertler' target='_blank'><FaGithub /></Nav.Link>
-                    <Nav.Link href='https://www.linkedin.com/in/asgertler/' target='_blank'><FaLinkedin /></Nav.Link>
+                    <Nav.Link id='footerDribbble' href='https://dribbble.com/aarongertler' target='_blank'>
+                        <FaDribbble style={{ marginBottom: '.15rem' }} />
+                    </Nav.Link>
+
+                    <Nav.Link id='footerGithub' href='https://github.com/asgertler' target='_blank'>
+                        <FaGithub style={{ marginBottom: '.15rem' }} />
+                    </Nav.Link>
+
+                    <Nav.Link id='footerLinkedin' href='https://www.linkedin.com/in/asgertler/' target='_blank'>
+                        <FaLinkedin style={{ marginBottom: '.15rem' }} />
+                    </Nav.Link>
                 </Nav>
             </Navbar>
         </Container >
