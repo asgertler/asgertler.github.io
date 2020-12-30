@@ -1,0 +1,29 @@
+@import '../_variables';
+
+#welcomeContainer {
+    color: white;
+    padding: 0 1.5rem;
+}
+
+#welcomeContainer h2 {
+    font-weight: bold;
+    margin: 0 0 1rem 0;
+}
+
+#welcomeContainer h5 {
+    margin: 0 0 1rem 0;
+}
+
+#welcomeRow {
+    background-image: url('../img/prism.png');
+    padding: 2rem;
+}
+
+.welcomeSides {
+    padding: 0;
+}
+
+#avatar {
+    height: auto;
+    width: 100%;
+}

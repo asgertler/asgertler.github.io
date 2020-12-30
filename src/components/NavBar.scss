@@ -1,0 +1,38 @@
+@import '../_variables';
+
+#navBarContainer {
+    padding: 0 .5rem;
+}
+
+#mainNav {
+    background-color: $e !important;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#myName {
+    color: $dark;
+    font-size: 1.5rem;
+    margin: auto 0;
+    display: inline-block;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+#logoLink {
+    padding: 0;
+}
+
+.navBarLogo img {
+    border-radius: 40px;
+    margin-right: 0.5rem;
+}
+
+.navBarSocial {
+    display: flex;
+}
+
+.navBarSocial svg {
+    height: auto;
+    width: 1.25rem;
+}

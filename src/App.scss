@@ -1,15 +1,34 @@
-.app {
-  color: #222;
+@import './_variables';
+
+#skillsContainer {
+    color: $dark;
+    margin-top: 1rem;
 }
 
-h1 {
-  font-size: 2.5rem;
-  font-weight: 900;
-  margin: 0;
+#skillsContainer h4 {
+    font-weight: bold;
+    margin: 0 0 .25rem 0;
 }
 
-h4 {
-  color: #999;
-  font-size: 1rem;
-  margin: 0;
+#skillsContainer hr {
+    border: $dark solid .5px;
+    margin: 0 0 .5rem 0;
+}
+
+#skillsContainer button {
+    background-color: #333;
+    border-color: #333;
+    margin: .5rem .5rem 0 0;
+}
+
+#skillsContainer button:last-child {
+    margin: .5rem 0 0 0;
+}
+
+#skillsContainer button svg {
+    margin-bottom: .15rem;
+}
+
+.skillsCol {
+    padding: 0 .5rem;
 }

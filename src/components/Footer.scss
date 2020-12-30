@@ -1,0 +1,30 @@
+@import '../_variables';
+
+#footerContainer {
+    padding: 0 .5rem;
+}
+
+#footer {
+    background-color: $e !important;
+}
+
+#copyright {
+    font-size: .85rem;
+    line-height: 25px;
+    vertical-align: middle;
+}
+
+#footerDribbble {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+#footerGithub {
+    padding-left: 0;
+    padding-right: .5rem;
+}
+
+#footerLinkedin {
+    padding-left: 0;
+    padding-right: 0;
+}
