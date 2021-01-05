@@ -28,9 +28,18 @@ export const Welcome = () => {
                         />
                     </h2>
 
-                    <h5>I focus on the front-end & UI/UX</h5>
+                    <h4>I build the front-end with a focus on UI/UX.</h4>
 
-                    <p>I build human-centric applications.</p>
+                    <p className='d-none d-md-block'>
+                        Before beginning down the road to becoming a front-end developer,
+                        I spent many years as a multimedia designer working in a number of
+                        various industries. The creative field gave me many opportunities to
+                        collaborate and work in a team-based environment while solving all sorts
+                        of visual and interactive challenges. I have always had a strong interest
+                        in technology and user interaction, and development spoke to me as a career
+                        where I could combine my love of design with even more logical problem solving
+                        and practical solutions to provide high-quality experiences to users.
+                    </p>
                 </Col>
             </Row>
         </Container>
