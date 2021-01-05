@@ -1,4 +1,4 @@
-import Button from 'react-bootstrap/Button'
+import Badge from 'react-bootstrap/Badge'
 import Col from 'react-bootstrap/Col'
 
 import { SiBootstrap } from 'react-icons/si'
@@ -25,61 +25,61 @@ export const Tech = () => {
                 <h4>Development Skills</h4>
                 <hr />
 
-                <Button size='sm' variant='info'>
+                <Badge variant='dark' className='techBadge'>
                     <SiBootstrap style={{ color: '#61dafb' }} />&nbsp; Bootstrap
-                </Button>
+                </Badge>
 
-                <Button size='sm' variant='info'>
+                <Badge variant='dark' className='techBadge'>
                     <SiCss3 style={{ color: 'dodgerblue' }} />&nbsp; CSS3
-                </Button>
+                </Badge>
 
-                <Button size='sm' variant='info'>
+                <Badge variant='dark' className='techBadge'>
                     <SiFirebase style={{ color: '#FFCA28' }} />&nbsp; Firebase
-                </Button>
+                </Badge>
 
-                <Button size='sm' variant='info'>
+                <Badge variant='dark' className='techBadge'>
                     <SiGithub style={{ color: '#fafafa' }} />&nbsp; GitHub
-                </Button>
+                </Badge>
 
-                <Button size='sm' variant='info'>
+                <Badge variant='dark' className='techBadge'>
                     <SiHtml5 style={{ color: '#f06529' }} />&nbsp; HTML5
-                </Button>
+                </Badge>
 
-                <Button size='sm' variant='info'>
+                <Badge variant='dark' className='techBadge'>
                     <SiJavascript style={{ color: '#fcdc00' }} />&nbsp; Javascript
-                </Button>
+                </Badge>
 
-                <Button size='sm' variant='info'>
+                <Badge variant='dark' className='techBadge'>
                     <SiLinuxfoundation style={{ color: '#0099cc' }} />&nbsp; Linux
-                </Button>
+                </Badge>
 
-                <Button size='sm' variant='info'>
+                <Badge variant='dark' className='techBadge'>
                     <SiNodeDotJs style={{ color: '#83cd29' }} />&nbsp; Node.js
-                </Button>
+                </Badge>
 
-                <Button size='sm' variant='info'>
+                <Badge variant='dark' className='techBadge'>
                     <SiReact style={{ color: '#61dafb' }} />&nbsp; React
-                </Button>
+                </Badge>
 
-                <Button size='sm' variant='info'>
+                <Badge variant='dark' className='techBadge'>
                     <SiSass style={{ color: '#c69' }} />&nbsp; SASS
-                </Button>
+                </Badge>
 
-                <Button size='sm' variant='info'>
+                <Badge variant='dark' className='techBadge'>
                     <SiSellfy style={{ color: '#00B5AD' }} />&nbsp; SemanticUI
-                </Button>
+                </Badge>
 
-                <Button size='sm' variant='info'>
+                <Badge variant='dark' className='techBadge'>
                     <SiVisualstudiocode style={{ color: '#0078d7 ' }} />&nbsp; VSCode
-                </Button>
+                </Badge>
 
-                <Button size='sm' variant='info'>
+                <Badge variant='dark' className='techBadge'>
                     <SiWordpress style={{ color: '#00A0D2' }} />&nbsp; Wordpress
-                </Button>
+                </Badge>
 
-                <Button size='sm' variant='info'>
+                <Badge variant='dark' className='techBadge'>
                     <FaCheck style={{ color: '#08cf65' }} />&nbsp; Wrike
-                </Button>
+                </Badge>
             </div>
         </Col>
     )

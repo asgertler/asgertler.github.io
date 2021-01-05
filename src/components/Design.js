@@ -1,4 +1,4 @@
-import Button from 'react-bootstrap/Button'
+import Badge from 'react-bootstrap/Badge'
 import Col from 'react-bootstrap/Col'
 
 import { SiAdobexd } from 'react-icons/si'
@@ -22,49 +22,49 @@ export const Design = () => {
                 <h4>UI/UX Skills</h4>
                 <hr />
 
-                <Button size='sm' variant='info'>
+                <Badge variant='dark' className='designBadge'>
                     <SiAdobexd style={{ color: '#F75EEE', backgroundColor: '#450135' }} />&nbsp; Adobe XD
-                </Button>
+                </Badge>
 
-                <Button size='sm' variant='info'>
+                <Badge variant='dark' className='designBadge'>
                     <FaPaintBrush style={{ color: 'mediumspringgreen' }} />&nbsp; Branding
-                </Button>
+                </Badge>
 
-                <Button size='sm' variant='info'>
+                <Badge variant='dark' className='designBadge'>
                     <FaPen style={{ color: 'gold' }} />&nbsp; Copywriting
-                </Button>
+                </Badge>
 
-                <Button size='sm' variant='info'>
+                <Badge variant='dark' className='designBadge'>
                     <SiFigma style={{ color: '#F24E1E' }} />&nbsp; Figma
-                </Button>
+                </Badge>
 
-                <Button size='sm' variant='info'>
+                <Badge variant='dark' className='designBadge'>
                     <SiAdobeillustrator style={{ color: '#F79500', backgroundColor: '#310000' }} />&nbsp; Illustrator
-                </Button>
+                </Badge>
 
-                <Button size='sm' variant='info'>
+                <Badge variant='dark' className='designBadge'>
                     <SiAdobeindesign style={{ color: '#F73163', backgroundColor: '#47021E' }} />&nbsp; InDesign
-                </Button>
+                </Badge>
 
-                <Button size='sm' variant='info'>
+                <Badge variant='dark' className='designBadge'>
                     <FaSitemap style={{ color: 'cyan' }} />&nbsp; Journey Mapping
-                </Button>
+                </Badge>
 
-                <Button size='sm' variant='info'>
+                <Badge variant='dark' className='designBadge'>
                     <SiAdobelightroomclassic style={{ color: '#2FA3F7', backgroundColor: '#001D34' }} />&nbsp; Lightroom
-                </Button>
+                </Badge>
 
-                <Button size='sm' variant='info'>
+                <Badge variant='dark' className='designBadge'>
                     <SiAdobephotoshop style={{ color: '#2FA3F7', backgroundColor: '#001D34' }} />&nbsp; Photoshop
-                </Button>
+                </Badge>
 
-                <Button size='sm' variant='info'>
+                <Badge variant='dark' className='designBadge'>
                     <FaWrench style={{ color: 'lightsteelblue' }} />&nbsp; Prototyping
-                </Button>
+                </Badge>
 
-                <Button size='sm' variant='info'>
+                <Badge variant='dark' className='designBadge'>
                     <FaUserAlt style={{ color: 'dodgerblue' }} />&nbsp; User Testing
-                </Button>
+                </Badge>
             </div>
         </Col>
     )
