@@ -5,13 +5,13 @@
 }
 
 #mainNav {
-    background-color: $e !important;
+    background-color: $clouds !important;
     padding: 1rem;
     margin-bottom: 1rem;
 }
 
 #myName {
-    color: $dark;
+    color: $midnightBlue;
     font-size: 1.5rem;
     margin: auto 0;
     display: inline-block;
@@ -26,6 +26,14 @@
 .navBarLogo img {
     border-radius: 40px;
     margin-right: 0.5rem;
+}
+
+#basic-navbar-nav a {
+    color: $asbestos;
+}
+
+#basic-navbar-nav a:hover {
+    color: $wetAsphalt;
 }
 
 .navBarSocial {
