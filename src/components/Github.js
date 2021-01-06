@@ -1,19 +1,28 @@
+import { useState } from 'react'
+
 import Badge from 'react-bootstrap/Badge'
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 import CardColumns from 'react-bootstrap/CardColumns'
 import Container from 'react-bootstrap/Container'
+import Modal from 'react-bootstrap/Modal'
 
 import seaTrack from '../img/seaTrackCard.png'
 
 import { SiGithub } from 'react-icons/si'
+import { FaInfoCircle } from 'react-icons/fa'
 
 import './Github.scss'
 
 export const Github = () => {
+    const [show, setShow] = useState(false)
+
+    const handleClose = () => setShow(false)
+    const handleShow = () => setShow(true)
+
     return (
-        <Container id='githubContainer'>
-            <CardColumns>
+        <Container id='gitHubContainer'>
+            <CardColumns id='gitHubColumns'>
                 <Card className='gitHubCard'>
                     <Card.Img variant="top" src={seaTrack} className='gitHubImg' />
 
@@ -31,7 +40,7 @@ export const Github = () => {
                             <Badge variant='dark' className='gitHubBadge'>Javascript</Badge>
                             <Badge variant='dark' className='gitHubBadge'>JSON Server</Badge>
                             <Badge variant='dark' className='gitHubBadge'>React</Badge>
-                            <Badge variant='dark' className='gitHubBadge'>SemanticUI</Badge>
+                            <Badge variant='dark' className='gitHubBadge'>Semantic UI</Badge>
                             <Badge variant='dark' className='gitHubBadge'>VSCode</Badge>
                         </div>
 
@@ -39,6 +48,36 @@ export const Github = () => {
                             variant="secondary" target='_blank' className='gitHubBtns'>
                             <SiGithub />&nbsp; See on Github
                         </Button>
+
+                        <Button variant="secondary" className='modalBtns' onClick={handleShow}>
+                            <FaInfoCircle />&nbsp; Case Study
+                        </Button>
+
+                        <Modal show={show} onHide={handleClose}>
+                            <Modal.Header closeButton className='modalHead'>
+                                <Modal.Title>Sea Track Case Study</Modal.Title>
+                            </Modal.Header>
+
+                            <Modal.Body className='modalBody'>
+                                <h4>Client</h4>
+
+                                <h4>Product</h4>
+
+                                <h4>Role</h4>
+
+                                <h4>Challenge</h4>
+
+                                <h4>Process</h4>
+
+                                <h4>Success</h4>
+                            </Modal.Body>
+
+                            <Modal.Footer className='modalFoot'>
+                                <Button variant="secondary" onClick={handleClose}>
+                                    Close
+                                </Button>
+                            </Modal.Footer>
+                        </Modal>
                     </Card.Body>
                 </Card>
 
@@ -67,6 +106,10 @@ export const Github = () => {
                             variant="secondary" target='_blank' className='gitHubBtns'>
                             <SiGithub />&nbsp; See on Github
                         </Button>
+
+                        <Button variant="secondary" className='modalBtns'>
+                            <FaInfoCircle />&nbsp; Case Study
+                        </Button>
                     </Card.Body>
                 </Card>
 
@@ -83,6 +126,10 @@ export const Github = () => {
                         <Button href='https://github.com/asgertler/sea-track'
                             variant="secondary" target='_blank' className='gitHubBtns'>
                             <SiGithub />&nbsp; See on Github
+                        </Button>
+
+                        <Button variant="secondary" className='modalBtns'>
+                            <FaInfoCircle />&nbsp; Case Study
                         </Button>
                     </Card.Body>
                 </Card>

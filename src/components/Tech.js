@@ -66,7 +66,7 @@ export const Tech = () => {
                 </Badge>
 
                 <Badge variant='dark' className='techBadge'>
-                    <SiSellfy style={{ color: '#00B5AD' }} />&nbsp; SemanticUI
+                    <SiSellfy style={{ color: '#00B5AD' }} />&nbsp; Semantic UI
                 </Badge>
 
                 <Badge variant='dark' className='techBadge'>

@@ -1,12 +1,16 @@
 @import '../_variables';
 
-#githubContainer {
+#gitHubContainer {
     color: $midnightBlue;
     padding: 0 .5rem;
 }
 
-#githubContainer .h5 {
+#gitHubContainer .h5 {
     font-weight: bold;
+}
+
+#gitHubColumns {
+    column-gap: 1rem;
 }
 
 .gitHubCard {
@@ -27,11 +31,33 @@
 
 .gitHubBtns {
     margin-top: .5rem;
+    margin-right: .5rem;
     background-color: $wetAsphalt;
     border-color: $wetAsphalt;
+}
+
+.modalBtns {
+    color: $asbestos;
+    margin-top: .5rem;
+    background-color: white;
+    border-color: $asbestos;
+}
+
+.modalBtns:hover {
+    border-color: $asbestos;
+    background-color: $asbestos;
 }
 
 .gitHubBtns:hover {
     background-color: $midnightBlue !important;
     border-color: $midnightBlue !important;
+}
+
+.modalHead {
+    color: white;
+    background-color: $midnightBlue;
+}
+
+.modalHead .close {
+    color: white;
 }
