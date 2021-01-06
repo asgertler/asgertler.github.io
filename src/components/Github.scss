@@ -1,0 +1,11 @@
+@import '../_variables';
+
+.gitHubBtns {
+    background-color: $wetAsphalt;
+    border-color: $wetAsphalt;
+}
+
+.gitHubBtns:hover {
+    background-color: $midnightBlue !important;
+    border-color: $midnightBlue !important;
+}
