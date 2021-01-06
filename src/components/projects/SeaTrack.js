@@ -54,16 +54,52 @@ export const SeaTrack = () => {
 
                     <Modal.Body className='modalBody'>
                         <h4>Client</h4>
+                        <p>
+                            Hey, take a look at the earthlings. Goodbye! Remind me to thank John for a
+                            lovely weekend. Forget the fat lady! You're obsessed with the fat lady! Drive
+                            us out of here! Do you have any idea how long it takes those cups to decompose.
+                            Must go faster... go, go, go, go, go!
+                        </p>
 
                         <h4>Product</h4>
+                        <p>
+                            Hey, take a look at the earthlings. Goodbye! Remind me to thank John for a
+                            lovely weekend. Forget the fat lady! You're obsessed with the fat lady! Drive
+                            us out of here! Do you have any idea how long it takes those cups to decompose.
+                            Must go faster... go, go, go, go, go!
+                        </p>
 
                         <h4>Role</h4>
+                        <p>
+                            Hey, take a look at the earthlings. Goodbye! Remind me to thank John for a
+                            lovely weekend. Forget the fat lady! You're obsessed with the fat lady! Drive
+                            us out of here! Do you have any idea how long it takes those cups to decompose.
+                            Must go faster... go, go, go, go, go!
+                        </p>
 
                         <h4>Challenge</h4>
+                        <ul>
+                            <li>Goodbye! Remind me to thank John for a lovely weekend.</li>
+                            <li>Goodbye! Remind me to thank John for a lovely weekend.</li>
+                            <li>Goodbye! Remind me to thank John for a lovely weekend.</li>
+                        </ul>
 
                         <h4>Process</h4>
+                        <ul>
+                            <li>You're obsessed with the fat lady!</li>
+                            <li>You're obsessed with the fat lady!</li>
+                            <li>You're obsessed with the fat lady!</li>
+                            <li>You're obsessed with the fat lady!</li>
+                            <li>You're obsessed with the fat lady!</li>
+                        </ul>
 
                         <h4>Success</h4>
+                        <p>
+                            Hey, take a look at the earthlings. Goodbye! Remind me to thank John for a
+                            lovely weekend. Forget the fat lady! You're obsessed with the fat lady! Drive
+                            us out of here! Do you have any idea how long it takes those cups to decompose.
+                            Must go faster... go, go, go, go, go!
+                        </p>
                     </Modal.Body>
 
                     <Modal.Footer className='modalFoot'>
