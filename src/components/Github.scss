@@ -1,6 +1,32 @@
 @import '../_variables';
 
+#githubContainer {
+    color: $midnightBlue;
+    padding: 0 .5rem;
+}
+
+#githubContainer .h5 {
+    font-weight: bold;
+}
+
+.gitHubCard {
+    border-radius: 0;
+}
+
+.gitHubImg {
+    border-radius: 0;
+}
+
+.gitHubBadge {
+    color: $wetAsphalt;
+    background-color: white;
+    border: 1px solid $wetAsphalt;
+    padding: .25rem;
+    margin: 0 .5rem .5rem 0;
+}
+
 .gitHubBtns {
+    margin-top: .5rem;
     background-color: $wetAsphalt;
     border-color: $wetAsphalt;
 }
