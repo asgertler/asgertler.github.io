@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2a9e901d.chunk.css",
+    "main.js": "/static/js/main.45c59aa1.chunk.js",
+    "main.js.map": "/static/js/main.45c59aa1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.55971ad8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.55971ad8.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.95d86678.chunk.js": "/static/js/2.95d86678.chunk.js",
+    "static/js/2.95d86678.chunk.js.map": "/static/js/2.95d86678.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.2a9e901d.chunk.css.map": "/static/css/main.2a9e901d.chunk.css.map",
+    "static/js/2.95d86678.chunk.js.LICENSE.txt": "/static/js/2.95d86678.chunk.js.LICENSE.txt",
+    "static/media/ag-avatar.56ea69e0.png": "/static/media/ag-avatar.56ea69e0.png",
+    "static/media/ag-logo_clr.bbd9e2d0.svg": "/static/media/ag-logo_clr.bbd9e2d0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55971ad8.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.95d86678.chunk.js",
+    "static/css/main.2a9e901d.chunk.css",
+    "static/js/main.45c59aa1.chunk.js"
+  ]
+}
