@@ -15,17 +15,13 @@
 }
 
 #welcomeContainer p {
-    max-width: 90%;
+    text-align: justify;
     margin: 2rem 0 0 0;
 }
 
 #welcomeRow {
     background-image: url('../img/prism.png');
     padding: 2rem;
-}
-
-.welcomeSides {
-    padding: 0;
 }
 
 #avatar {
