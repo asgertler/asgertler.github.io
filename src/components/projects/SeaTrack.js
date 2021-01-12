@@ -40,7 +40,7 @@ export const SeaTrack = () => {
 
                 <Button href='https://github.com/asgertler/sea-track'
                     variant="secondary" target='_blank' className='gitHubBtns'>
-                    <SiGithub />&nbsp; See on Github
+                    <SiGithub />&nbsp; GitHub Repo
                         </Button>
 
                 <Button variant="secondary" className='modalBtns' onClick={handleShow}>
