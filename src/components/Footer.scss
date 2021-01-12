@@ -5,17 +5,26 @@
 }
 
 #footer {
-    background-color: $e !important;
+    background-color: $clouds !important;
+}
+
+#footer a {
+    color: $asbestos;
+}
+
+#footer a:hover {
+    color: $wetAsphalt;
 }
 
 #copyright {
+    color: $asbestos;
     font-size: .85rem;
     line-height: 25px;
     vertical-align: middle;
+    margin-right: .25rem;
 }
 
 #footerDribbble {
-    padding-left: .5rem;
     padding-right: .5rem;
 }
 

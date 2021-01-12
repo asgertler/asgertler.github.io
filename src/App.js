@@ -5,6 +5,7 @@ import { NavBar } from './components/NavBar'
 import { Welcome } from './components/Welcome'
 import { Design } from './components/Design'
 import { Tech } from './components/Tech'
+import { Github } from './components/Github'
 import { Footer } from './components/Footer'
 import './App.scss';
 
@@ -21,6 +22,8 @@ function App() {
           <Design />
         </Row>
       </Container>
+
+      <Github id='projects' />
 
       <Footer />
     </div>

@@ -1,0 +1,67 @@
+@import '../_variables';
+
+#gitHubContainer {
+    color: $midnightBlue;
+    padding: 0 .5rem;
+}
+
+#gitHubContainer .h5 {
+    font-weight: bold;
+}
+
+#gitHubColumns {
+    column-gap: 1rem;
+}
+
+.gitHubCard {
+    border-radius: 0;
+}
+
+.gitHubImg {
+    border-radius: 0;
+}
+
+.gitHubBadge {
+    color: $wetAsphalt;
+    background-color: white;
+    border: 1px solid $wetAsphalt;
+    padding: .25rem;
+    margin: 0 .5rem .5rem 0;
+}
+
+.gitHubBtns {
+    margin-top: .5rem;
+    margin-right: .5rem;
+    background-color: $wetAsphalt;
+    border-color: $wetAsphalt;
+}
+
+.modalBtns {
+    color: $asbestos;
+    margin-top: .5rem;
+    background-color: white;
+    border-color: $asbestos;
+}
+
+.modalBtns:hover {
+    border-color: $asbestos;
+    background-color: $asbestos;
+}
+
+.gitHubBtns:hover {
+    background-color: $midnightBlue !important;
+    border-color: $midnightBlue !important;
+}
+
+.modalHead {
+    color: white;
+    background-color: $midnightBlue;
+}
+
+.modalHead .close {
+    color: white;
+}
+
+.modalFoot {
+    background-color: $silver;
+}

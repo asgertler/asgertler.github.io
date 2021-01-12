@@ -11,11 +11,11 @@ export const Welcome = () => {
     return (
         <Container id='welcomeContainer'>
             <Row id='welcomeRow'>
-                <Col className='welcomeSides d-none d-md-block' sm={{ span: 3, order: 'last' }}>
+                <Col className='welcomeSides d-none d-xl-block' xl={{ span: 3 }}>
                     <img src={Avatar} alt='avatar' id='avatar' />
                 </Col>
 
-                <Col className="welcomeSides" sm={{ span: 9, order: 'first' }}>
+                <Col className="welcomeSides" xl={{ span: 9 }}>
                     <h2>
                         <span>Hi, I'm </span>
 
@@ -28,9 +28,11 @@ export const Welcome = () => {
                         />
                     </h2>
 
-                    <h5>I focus on the front-end & UI/UX</h5>
+                    <h4>I use UI/UX to build the front-end.</h4>
 
-                    <p>I build human-centric applications.</p>
+                    <p className='d-none d-md-block'>
+
+                    </p>
                 </Col>
             </Row>
         </Container>
