@@ -2,6 +2,7 @@ import CardColumns from 'react-bootstrap/CardColumns'
 import Container from 'react-bootstrap/Container'
 
 import { SeaTrack } from './projects/SeaTrack'
+import { C43Website } from './projects/C43Website'
 
 import './Github.scss'
 
@@ -10,7 +11,7 @@ export const Github = () => {
         <Container id='gitHubContainer'>
             <CardColumns id='gitHubColumns'>
                 <SeaTrack />
-                <SeaTrack />
+                <C43Website />
                 <SeaTrack />
             </CardColumns>
         </Container>

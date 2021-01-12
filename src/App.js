@@ -23,7 +23,7 @@ function App() {
         </Row>
       </Container>
 
-      <Github />
+      <Github id='projects' />
 
       <Footer />
     </div>

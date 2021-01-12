@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 import Modal from 'react-bootstrap/Modal'
 
-import seaTrackImg from '../../img/seaTrackCard.png'
+import C43Img from '../../img/C43Card.png'
 
 import { SiGithub } from 'react-icons/si'
 import { FaInfoCircle } from 'react-icons/fa'
@@ -18,27 +18,28 @@ export const C43Website = () => {
 
     return (
         <Card className='gitHubCard'>
-            <Card.Img variant="top" src={seaTrackImg} className='gitHubImg' />
+            <Card.Img variant="top" src={C43Img} className='gitHubImg' />
 
             <Card.Body>
-                <Card.Title>SeaTrack</Card.Title>
+                <Card.Title>NSS C43 Cohort Website</Card.Title>
 
                 <Card.Text>
-                    A water quality log and tracking app for saltwater and reef aquarists.
+                    Team project in Nashville Software School to build our cohort's website.
                         </Card.Text>
 
                 <div className='gitHubBadges'>
+                    <Badge variant='dark' className='gitHubBadge'>Bootstrap</Badge>
                     <Badge variant='dark' className='gitHubBadge'>CSS3</Badge>
+                    <Badge variant='dark' className='gitHubBadge'>Figma</Badge>
                     <Badge variant='dark' className='gitHubBadge'>HTML5</Badge>
                     <Badge variant='dark' className='gitHubBadge'>Illustrator</Badge>
                     <Badge variant='dark' className='gitHubBadge'>Javascript</Badge>
                     <Badge variant='dark' className='gitHubBadge'>JSON Server</Badge>
                     <Badge variant='dark' className='gitHubBadge'>React</Badge>
-                    <Badge variant='dark' className='gitHubBadge'>Semantic UI</Badge>
                     <Badge variant='dark' className='gitHubBadge'>VSCode</Badge>
                 </div>
 
-                <Button href='https://github.com/asgertler/sea-track'
+                <Button href='https://nss-day-cohort-43.github.io'
                     variant="secondary" target='_blank' className='gitHubBtns'>
                     <SiGithub />&nbsp; See on Github
                         </Button>
