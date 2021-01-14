@@ -2,18 +2,18 @@
 
 View the live site [here](https://asgertler.github.io)
 
-## Skills
+# Skills
 
-### Development
+## Development
 
 Bootstrap, CSS3, Firebase, GitHub, Heroku, HTML5, Javascript, Linux, NPM, React, SASS, Semantic UI, VSCode, Wordpress
 
-### UI/UX  
+## UI/UX  
 Adobe XD, Branding, Copywriting, Figma, Illustrator, InDesign, Journey Mapping, Lightroom, Prototyping, User Testing, Wrike
 
-## Projects
+# Projects
 
-### SeaTrack
+## SeaTrack
 
 Created an app for saltwater aquarists to be able to log and track the quality of the water in their ecosystems.  
 
@@ -21,7 +21,7 @@ Created an app for saltwater aquarists to be able to log and track the quality o
 
 See the project on [GitHut](https://github.com/asgertler/sea-track), or view a [Live Demo](https://asgertler.github.io/sea-track)
 
-### Nashville Software School Day Cohort 43 Website
+## Nashville Software School Day Cohort 43 Website
 
 Worked with a team to design, test, and build the C43 cohort website.  
 
@@ -29,7 +29,7 @@ Worked with a team to design, test, and build the C43 cohort website.
 
 See the project on [GitHub](https://github.com/nss-day-cohort-43/nss-day-cohort-43.github.io) or view the [Live Site](https://nss-day-cohort-43.github.io/)
 
-## Contact & Social
+# Contact & Social
 
 Email: <aaron.gertler@gmail.com>  
 LinkedIn: [asgertler](https://www.linkedin.com/in/asgertler/)  
