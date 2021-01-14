@@ -14,7 +14,8 @@ export const Resume = () => {
                 <Col id='resumeCol'>
                     <div id='resumeHeader'>
                         <h4>My Résumé</h4>
-                        <Button id='resumeBtn' size='sm' variant='secondary'>
+                        <Button id='resumeBtn' size='sm' variant='secondary'
+                            href='#'>
                             <IoMdDownload />&nbsp; Download PDF
                         </Button>
                     </div>

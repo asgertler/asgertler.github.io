@@ -22,6 +22,7 @@
 
 #resumeCol h4 {
     font-weight: bold;
+    margin-bottom: 0;
 }
 
 #resumeBtn {
@@ -36,5 +37,5 @@
 
 #resumeCol hr {
     border: $midnightBlue solid 0.5px;
-    margin: 0 0 .5rem 0;
+    margin: .5rem 0;
 }
