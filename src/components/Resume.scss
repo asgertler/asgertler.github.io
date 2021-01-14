@@ -1,0 +1,40 @@
+@import '../_variables';
+
+#resumeContainer {
+    color: $midnightBlue;
+    padding: 0 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#resumeRow {
+    background-color: $clouds;
+}
+
+#resumeCol {
+    padding: 2rem;
+} 
+
+#resumeHeader {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+#resumeCol h4 {
+    font-weight: bold;
+}
+
+#resumeBtn {
+    background-color: $wetAsphalt;
+    border-color: $wetAsphalt;
+}
+
+#resumeBtn:hover {
+    background-color: $midnightBlue !important;
+    border-color: $midnightBlue !important;
+}
+
+#resumeCol hr {
+    border: $midnightBlue solid 0.5px;
+    margin: 0 0 .5rem 0;
+}

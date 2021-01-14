@@ -29,6 +29,7 @@ export const SeaTrack = () => {
 
                 <div className='gitHubBadges'>
                     <Badge variant='dark' className='gitHubBadge'>CSS3</Badge>
+                    <Badge variant='dark' className='gitHubBadge'>Heroku</Badge>
                     <Badge variant='dark' className='gitHubBadge'>HTML5</Badge>
                     <Badge variant='dark' className='gitHubBadge'>Illustrator</Badge>
                     <Badge variant='dark' className='gitHubBadge'>Javascript</Badge>

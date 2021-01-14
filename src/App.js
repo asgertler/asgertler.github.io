@@ -6,6 +6,7 @@ import { Welcome } from './components/Welcome'
 import { Design } from './components/Design'
 import { Tech } from './components/Tech'
 import { Github } from './components/Github'
+import { Resume } from './components/Resume'
 import { Footer } from './components/Footer'
 import './App.scss';
 
@@ -24,6 +25,8 @@ function App() {
       </Container>
 
       <Github id='projects' />
+
+      <Resume />
 
       <Footer />
     </div>
