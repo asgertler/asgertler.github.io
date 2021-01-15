@@ -41,7 +41,7 @@ export const Resume = () => {
 
                     <hr />
 
-                    <h5>Techincal Experience</h5>
+                    <h5>Technical Experience</h5>
 
                     <Row>
                         <Col xs={12} lg={6}>
