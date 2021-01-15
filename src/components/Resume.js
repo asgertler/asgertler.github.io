@@ -3,6 +3,8 @@ import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 
+import ResumePDF from '../docs/aaron-gertler_resume.pdf'
+
 import { IoMdDownload } from 'react-icons/io'
 
 import './Resume.scss'
@@ -15,7 +17,7 @@ export const Resume = () => {
                     <div id='resumeHeader'>
                         <h4>My Résumé</h4>
                         <Button id='resumeBtn' size='sm' variant='secondary'
-                            href='#'>
+                            href={ResumePDF} target='_blank'>
                             <IoMdDownload />&nbsp; Full PDF
                         </Button>
                     </div>
