@@ -23,6 +23,7 @@ export const NavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
                         <Nav.Link href="#projects">Projects</Nav.Link>
+                        <Nav.Link href='#resumeContainer'>Résumé</Nav.Link>
                         <Nav.Link href="#contact">Contact</Nav.Link>
                         <div className='navBarSocial'>
                             <Nav.Link href='https://dribbble.com/aarongertler' target='_blank'>
