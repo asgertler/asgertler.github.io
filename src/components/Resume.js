@@ -63,28 +63,20 @@ export const Resume = () => {
                                 <ul className='resumeDetails'>
                                     <li>
                                         Intensive full-time six-month front-end web development and UI/UX
-                                        design bootcamp anchoring learning with both individual and teambased
-                                        projects. Tech Stack: HTML5, CSS3, SASS, JavaScript, React,
-                                        JSON, Node.js, Git, and GitHub.
+                                        design bootcamp anchoring learning with both individual and teambased projects. Tech Stack: HTML5, CSS3, SASS, JavaScript, React, JSON, Node.js, Git, and GitHub.
                                     </li>
 
                                     <li>
                                         Version control, simulated work-based learning environment, emphasis
-                                        on team-based development, applied knowledge of interpreting existing
-                                        code, focus on UI/UX design concepts.
+                                        on team-based development, applied knowledge of interpreting existing code, focus on UI/UX design concepts.
                                     </li>
 
                                     <li>
-                                        NSS Project #1 - SeaTrack (See on GitHub): An app to help aquarists
-                                        track water quality and fish health in their aquarium(s). Built using React,
-                                        HTML5, CSS3, JSON Server, and Semantic UI.
+                                        <strong>NSS Project #1</strong> - SeaTrack (See on <a href='https://github.com/asgertler/sea-track' target='_blank'>GitHub</a>): An app to help aquarists track water quality and fish health in their aquarium(s). Built using React, HTML5, CSS3, JSON Server, and Semantic UI.
                                     </li>
 
                                     <li>
-                                        NSS Project #2 - C43 Class Website (See on GitHub): Cohort website
-                                        designed and constructed by the UI/UX team of C43 with a focus user
-                                        wireframing, prototyping, and user testing. Built using React, HTML5,
-                                        SASS, Firebase, and Bootstrap.
+                                        <strong>NSS Project #2</strong> - C43 Class Website (See on <a href='https://github.com/nss-day-cohort-43/nss-day-cohort-43.github.io' target='_blank'>GitHub</a>): Cohort website designed and constructed by the UI/UX team of C43 with a focus user wireframing, prototyping, and user testing. Built using React, HTML5, SASS, Firebase, and Bootstrap.
                                     </li>
                                 </ul>
                             </div>
