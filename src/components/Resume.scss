@@ -25,6 +25,14 @@
     margin-bottom: 0;
 }
 
+#resumeCol h5 {
+    font-weight: bold;
+}
+
+#resumeCol p {
+    margin-bottom: 0;
+}
+
 #resumeBtn {
     background-color: $wetAsphalt;
     border-color: $wetAsphalt;
@@ -37,5 +45,5 @@
 
 #resumeCol hr {
     border: $midnightBlue solid 0.5px;
-    margin: .5rem 0;
+    margin: .5rem 0 2rem 0;
 }
