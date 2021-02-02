@@ -44,7 +44,7 @@ export const SeaTrack = () => {
                     <SiGithub />&nbsp; GitHub Repo
                         </Button>
 
-                <Button variant="secondary" className='modalBtns' onClick={handleShow}>
+                <Button variant="secondary" className='modalBtns' onClick={handleShow} disabled>
                     <FaInfoCircle />&nbsp; Case Study
                         </Button>
 
