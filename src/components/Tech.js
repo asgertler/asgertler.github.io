@@ -5,16 +5,16 @@ import { SiBootstrap } from 'react-icons/si'
 import { SiCss3 } from 'react-icons/si'
 import { SiFirebase } from 'react-icons/si'
 import { SiGithub } from 'react-icons/si'
+import { SiHeroku } from 'react-icons/si'
 import { SiHtml5 } from 'react-icons/si'
 import { SiJavascript } from 'react-icons/si'
 import { SiLinuxfoundation } from 'react-icons/si'
-import { SiNodeDotJs } from 'react-icons/si'
+import { ImNpm } from 'react-icons/im'
 import { SiReact } from 'react-icons/si'
 import { SiSass } from 'react-icons/si'
 import { SiSellfy } from 'react-icons/si'
 import { SiVisualstudiocode } from 'react-icons/si'
 import { SiWordpress } from 'react-icons/si'
-import { FaCheck } from 'react-icons/fa'
 
 import './Tech.scss'
 
@@ -42,6 +42,10 @@ export const Tech = () => {
                 </Badge>
 
                 <Badge variant='dark' className='techBadge'>
+                    <SiHeroku style={{ color: '#9E7CC1' }} />&nbsp; Heroku
+                </Badge>
+
+                <Badge variant='dark' className='techBadge'>
                     <SiHtml5 style={{ color: '#f06529' }} />&nbsp; HTML5
                 </Badge>
 
@@ -54,7 +58,7 @@ export const Tech = () => {
                 </Badge>
 
                 <Badge variant='dark' className='techBadge'>
-                    <SiNodeDotJs style={{ color: '#83cd29' }} />&nbsp; Node.js
+                    <ImNpm style={{ color: '#C53635' }} />&nbsp; NPM
                 </Badge>
 
                 <Badge variant='dark' className='techBadge'>
@@ -75,10 +79,6 @@ export const Tech = () => {
 
                 <Badge variant='dark' className='techBadge'>
                     <SiWordpress style={{ color: '#00A0D2' }} />&nbsp; Wordpress
-                </Badge>
-
-                <Badge variant='dark' className='techBadge'>
-                    <FaCheck style={{ color: '#08cf65' }} />&nbsp; Wrike
                 </Badge>
             </div>
         </Col>

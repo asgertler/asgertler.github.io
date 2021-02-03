@@ -44,7 +44,7 @@ export const C43Website = () => {
                     <FaGlobe />&nbsp; Visit Site
                         </Button>
 
-                <Button variant="secondary" className='modalBtns' onClick={handleShow}>
+                <Button variant="secondary" className='modalBtns' onClick={handleShow} disabled>
                     <FaInfoCircle />&nbsp; Case Study
                         </Button>
 

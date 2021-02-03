@@ -12,6 +12,7 @@ import { SiAdobelightroomclassic } from 'react-icons/si'
 import { SiAdobephotoshop } from 'react-icons/si'
 import { FaWrench } from 'react-icons/fa'
 import { FaUserAlt } from 'react-icons/fa'
+import { FaCheck } from 'react-icons/fa'
 
 import './Design.scss'
 
@@ -64,6 +65,10 @@ export const Design = () => {
 
                 <Badge variant='dark' className='designBadge'>
                     <FaUserAlt style={{ color: 'dodgerblue' }} />&nbsp; User Testing
+                </Badge>
+
+                <Badge variant='dark' className='techBadge'>
+                    <FaCheck style={{ color: '#08cf65' }} />&nbsp; Wrike
                 </Badge>
             </div>
         </Col>

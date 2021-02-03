@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Aaron Gertler, UI/UX Designer & Front-End Developer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+View the live site [here](https://asgertler.github.io)
 
-## Available Scripts
+# Skills
 
-In the project directory, you can run:
+## Development
 
-### `npm start`
+Bootstrap, CSS3, Firebase, GitHub, Heroku, HTML5, Javascript, Linux, NPM, React, SASS, Semantic UI, VSCode, Wordpress
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## UI/UX  
+Adobe XD, Branding, Copywriting, Figma, Illustrator, InDesign, Journey Mapping, Lightroom, Prototyping, User Testing, Wrike
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Projects
 
-### `npm test`
+## SeaTrack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Created an app for saltwater aquarists to be able to log and track the quality of the water in their ecosystems.  
 
-### `npm run build`
+**Technologies Used**: CSS3, Heroku, HTML5, Illustrator, Javascript, JSON Server, React, Semantic UI, VSCode  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+See the project on [GitHut](https://github.com/asgertler/sea-track), or view a [Live Demo](https://asgertler.github.io/sea-track)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Nashville Software School Day Cohort 43 Website
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Worked with a team to design, test, and build the C43 cohort website.  
 
-### `npm run eject`
+**Technologies Used**: Bootstrap, CSS3, Figma, HTLM5, Illustrator, Javascript, JSON Server, React, VSCode  
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+See the project on [GitHub](https://github.com/nss-day-cohort-43/nss-day-cohort-43.github.io) or view the [Live Site](https://nss-day-cohort-43.github.io/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Contact & Social
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Email: <aaron.gertler@gmail.com>  
+LinkedIn: [asgertler](https://www.linkedin.com/in/asgertler/)  
+Dribbble: [aarongertler](https://dribbble.com/aarongertler)
