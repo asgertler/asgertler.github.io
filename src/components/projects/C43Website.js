@@ -10,6 +10,7 @@ import C43Img from '../../img/C43Card.png'
 
 import { SiGithub } from 'react-icons/si'
 import { FaInfoCircle } from 'react-icons/fa'
+import { FaGlobe } from 'react-icons/fa'
 
 import './projects.sass'
 
@@ -121,6 +122,16 @@ export const C43Website = () => {
                                 We learned how to facilitate remote user tests.
                             </li>
                         </ul>
+
+                        <Button href='https://github.com/nss-day-cohort-43/nss-day-cohort-43.github.io'
+                            variant="secondary" target='_blank' className='gitHubBtns'>
+                            <SiGithub />&nbsp; GitHub Repo
+                        </Button>
+
+                        <Button href='https://nss-day-cohort-43.github.io/'
+                            variant="secondary" target='_blank' className='gitHubBtns'>
+                            <FaGlobe />&nbsp; Visit Site
+                        </Button>
                     </Modal.Body>
 
                     <Modal.Footer className='modalFoot'>
