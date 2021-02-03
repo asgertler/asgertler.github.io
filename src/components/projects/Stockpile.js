@@ -10,7 +10,7 @@ import ComingSoonImg from '../../img/comingSoonCard.png'
 import { SiGithub } from 'react-icons/si'
 import { FaInfoCircle } from 'react-icons/fa'
 
-export const ComingSoon = () => {
+export const Stockpile = () => {
     const [show, setShow] = useState(false)
 
     const handleClose = () => setShow(false)
@@ -21,15 +21,17 @@ export const ComingSoon = () => {
             <Card.Img variant="top" src={ComingSoonImg} className='gitHubImg' />
 
             <Card.Body>
-                <Card.Title>NSS Second Capstone</Card.Title>
+                <Card.Title>Stockpile</Card.Title>
 
                 <Card.Text>
-                    Placeholder card for my second capstone project for Nashville Software School.
+                    An equipment inventory management app for photographers and studios.
                 </Card.Text>
 
                 <div className='gitHubBadges'>
+                    <Badge variant='dark' className='gitHubBadge'>Ant Design</Badge>
                     <Badge variant='dark' className='gitHubBadge'>CSS3</Badge>
                     <Badge variant='dark' className='gitHubBadge'>Figma</Badge>
+                    <Badge variant='dark' className='gitHubBadge'>Heroku</Badge>
                     <Badge variant='dark' className='gitHubBadge'>HTML5</Badge>
                     <Badge variant='dark' className='gitHubBadge'>Javascript</Badge>
                     <Badge variant='dark' className='gitHubBadge'>JSON Server</Badge>
