@@ -10,6 +10,7 @@ import seaTrackImg from '../../img/seaTrackCard.png'
 
 import { SiGithub } from 'react-icons/si'
 import { FaInfoCircle } from 'react-icons/fa'
+import { FaGlobe } from 'react-icons/fa'
 
 import Hazel from '../../img/hazel-floyd.png'
 import Levi from '../../img/levi-walton.png'
@@ -170,19 +171,33 @@ export const SeaTrack = () => {
                         <h4>Success</h4>
                         <ul>
                             <li>
-                                User testing from the beginning helped us make better design decisions. We realized usability trumps innovative design.
+                                Completed my front-end capstone project for Nashville Software School by creating an app in React and hitting CRUD.
                             </li>
 
                             <li>
-                                We learned how to facilitate remote user tests.
+                                Learned how useful a solid planned ERD is for efficiently creating usable database structures.
+                            </li>
+
+                            <li>
+                                Fully deployed my app for testing and demoing purposes by utilizing GitHub Pages and Heroku.
                             </li>
                         </ul>
+
+                        <Button href='https://github.com/asgertler/sea-track'
+                            variant="secondary" target='_blank' className='gitHubBtns'>
+                            <SiGithub />&nbsp; GitHub Repo
+                        </Button>
+
+                        <Button href='https://asgertler.github.io/sea-track/#/'
+                            variant="secondary" target='_blank' className='gitHubBtns'>
+                            <FaGlobe />&nbsp; Visit Site
+                        </Button>
                     </Modal.Body>
 
                     <Modal.Footer className='modalFoot'>
                         <Button variant="secondary" onClick={handleClose}>
                             Close
-                                </Button>
+                        </Button>
                     </Modal.Footer>
                 </Modal>
             </Card.Body>
