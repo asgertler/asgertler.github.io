@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
+import { FaEnvelope } from 'react-icons/fa'
 import { FaDribbble } from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
@@ -24,8 +25,11 @@ export const NavBar = () => {
                     <Nav className="ml-auto">
                         <Nav.Link href="#projects">Projects</Nav.Link>
                         <Nav.Link href='#resumeContainer'>Résumé</Nav.Link>
-                        <Nav.Link href="#contact">Contact</Nav.Link>
                         <div className='navBarSocial'>
+                            <Nav.Link href='mailto:aarongertler@gmail.com' target='_blank'>
+                                <FaEnvelope style={{ marginBottom: '.15rem' }} />
+                            </Nav.Link>
+
                             <Nav.Link href='https://dribbble.com/aarongertler' target='_blank'>
                                 <FaDribbble style={{ marginBottom: '.15rem' }} />
                             </Nav.Link>
