@@ -24,7 +24,7 @@ function App() {
         </Row>
       </Container>
 
-      <Github id='projects' />
+      <Github />
 
       <Resume />
 

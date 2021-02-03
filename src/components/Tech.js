@@ -24,7 +24,6 @@ export const Tech = () => {
             <div className='techList'>
                 <h4>Development Skills</h4>
                 <hr />
-
                 <Badge variant='dark' className='techBadge'>
                     <SiBootstrap style={{ color: '#61dafb' }} />&nbsp; Bootstrap
                 </Badge>

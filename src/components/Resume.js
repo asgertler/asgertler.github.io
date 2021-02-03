@@ -11,7 +11,7 @@ import './Resume.scss'
 
 export const Resume = () => {
     return (
-        <Container id='resumeContainer'>
+        <Container id='resume'>
             <Row id='resumeRow'>
                 <Col id='resumeCol'>
                     <div id='resumeHeader'>

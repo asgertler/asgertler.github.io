@@ -9,7 +9,7 @@ import './Github.scss'
 
 export const Github = () => {
     return (
-        <Container id='gitHubContainer'>
+        <Container id='projects'>
             <CardColumns id='gitHubColumns'>
                 <C43Website />
                 <SeaTrack />

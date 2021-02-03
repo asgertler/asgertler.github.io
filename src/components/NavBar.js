@@ -24,7 +24,7 @@ export const NavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
                         <Nav.Link href="#projects">Projects</Nav.Link>
-                        <Nav.Link href='#resumeContainer'>Résumé</Nav.Link>
+                        <Nav.Link href='#resume'>Résumé</Nav.Link>
                         <div className='navBarSocial'>
                             <Nav.Link href='mailto:aarongertler@gmail.com' target='_blank'>
                                 <FaEnvelope style={{ marginBottom: '.15rem' }} />
