@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
+import { FaEnvelope } from 'react-icons/fa'
 import { FaDribbble } from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
@@ -17,6 +18,10 @@ export const Footer = () => {
                     <Navbar.Text id='copyright'>
                         Copyright © {year} Aaron Gertler.
                     </Navbar.Text>
+
+                    <Nav.Link id='footerEmail' href='mailto:aarongertler@gmail.com' target='_blank'>
+                        <FaEnvelope style={{ marginBottom: '.15rem' }} />
+                    </Nav.Link>
 
                     <Nav.Link id='footerDribbble' href='https://dribbble.com/aarongertler' target='_blank'>
                         <FaDribbble style={{ marginBottom: '.15rem' }} />
