@@ -96,7 +96,7 @@ export const SeaTrack = () => {
                                 <em>(User, Customer, Influencer)</em><br />
                                 <ul>
                                     <li>Probably older, 30s-50s</li>
-                                    <li>Fairy tech savvy</li>
+                                    <li>Fairly tech savvy</li>
                                     <li>Early adopter/majority</li>
                                     <li>Decent income</li>
                                     <li>Keeps good logs</li>
