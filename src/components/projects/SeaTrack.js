@@ -11,6 +11,13 @@ import seaTrackImg from '../../img/seaTrackCard.png'
 import { SiGithub } from 'react-icons/si'
 import { FaInfoCircle } from 'react-icons/fa'
 
+import Hazel from '../../img/hazel-floyd.png'
+import Levi from '../../img/levi-walton.png'
+import Sulema from '../../img/sulema-barba.png'
+import Wireframe from '../../img/sea-track-wireframe.png'
+import ERD from '../../img/sea-track-erd.png'
+import Site from '../../img/sea-track-site.png'
+
 import './projects.sass'
 
 export const SeaTrack = () => {
@@ -84,8 +91,8 @@ export const SeaTrack = () => {
 
                         <ul>
                             <li>
-                                <strong>Experienced Hobbyist:</strong>
-                                <em>User, Customer, Influencer</em><br />
+                                <strong>Experienced Hobbyist</strong>
+                                <em>(User, Customer, Influencer)</em><br />
                                 <ul>
                                     <li>Probably older, 30s-50s</li>
                                     <li>Fairy tech savvy</li>
@@ -97,35 +104,68 @@ export const SeaTrack = () => {
                                     <li>Tired of spreadsheets</li>
                                 </ul>
                             </li>
+
+                            <li>
+                                <strong>Beginner/New to Hobby</strong>
+                                <em>(User)</em><br />
+                                <ul>
+                                    <li>Any age, probably younger</li>
+                                    <li>May be less tech inclined</li>
+                                    <li>Late majority</li>
+                                    <li>Wide income range, probably lower</li>
+                                    <li>Unfamiliar with logging</li>
+                                    <li>Not ready for complicated</li>
+                                    <li>One-stop-shop</li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <strong>Proffessional</strong>
+                                <em>(User, Customer, Influencer)</em><br />
+                                <ul>
+                                    <li>Probably older, 40s+</li>
+                                    <li>Very tech savvy</li>
+                                    <li>Early adopter/innovator</li>
+                                    <li>Solid budgets, with reason</li>
+                                    <li>Keeps extensive logs</li>
+                                    <li>Needs to track large systems</li>
+                                    <li>Record-keeping vital</li>
+                                    <li>Lots of users</li>
+                                </ul>
+                            </li>
                         </ul>
 
-                        <Image src='https://github.com/nss-day-cohort-43/nss-day-cohort-43.github.io/blob/main/RMImages/Screen%20Shot%202021-01-14%20at%2011.45.44%20AM.png?raw=true' thumbnail />
-
-                        <Image src='https://github.com/nss-day-cohort-43/nss-day-cohort-43.github.io/blob/main/RMImages/co431.png?raw=true' thumbnail />
-
                         <p>
-                            After discussion, we realized both teams brought good ideas to the table. We decided to merge the 2 into a hybrid design.
+                            From there, I translated those initial ideas into more fleshed-out personas:
                         </p>
 
-                        <p>
-                            One team used Pantone's color of the year for 2021, Illuminating, with a teal that paired well with it. The bright gold color felt fresh and exciting - a new beginning. We wanted to convey that as new hires, we can provide a fresh and aspirational face to any company that might consider hiring us.
-                        </p>
+                        <Image src={Hazel} thumbnail />
+
+                        <Image src={Levi} thumbnail />
+
+                        <Image src={Sulema} thumbnail />
 
                         <p>
-                            The other team had a clear, card based layout that displayed the students in a clear and effective manner. We liked the way this layout showed the technologies our cohort learned over our time at NSS.
+                            Using the information gained from creating these personas and receiving feedback from teammates about them, I turned my focus to my ERD that would be the fundamental basis for this entire project in order to effectively achieve CRUD:
                         </p>
+
+                        <Image src={ERD} thumbnail />
 
                         <p>
-                            We came together and created a new mockup.
+                            Next was to create an initial wireframe to give myself direction once I began actually developing the application:
                         </p>
 
-                        <Image src='https://github.com/nss-day-cohort-43/nss-day-cohort-43.github.io/blob/main/RMImages/combinedMockUp.png?raw=true' thumbnail />
+                        <Image src={Wireframe} thumbnail />
 
                         <p>
-                            We began user testing with 3 development professionals. We took their feedback and improved our site. We did 2 more rounds of user testing and decided on our final design.
+                            With all of that information in hand, I set out to create Sea Track using React. The initial build phase in order to meet MVP for my NSS front-end capstone took about two weeks. In the end, I successfully built (and eventually deployed) a working application that allows users to create accounts (unsecure, for learning purposes), create aquariums, add fish to aquariums, create tasks, and log water quality. All of those elements successfully met MVP via CRUD. I also implemented a series of warnings set up to track certain water conditions against safe ranges the user puts onto their fish, such as a healthy pH range. It can also warn the user if they are overdue for a water change.
                         </p>
 
-                        <Image src='https://github.com/nss-day-cohort-43/nss-day-cohort-43.github.io/blob/main/RMImages/c43Final.png?raw=true' thumbnail />
+                        <Image src={Site} thumbnail />
+
+                        <p>
+                            After completing my capstone project, I went ahead and deployed the React side of the app on GitHub Pages and hosted the database on Heroku so that the site could be live tested/demoed as well as giving me a chance to learn about fully deploying an application.
+                        </p>
 
                         <h4>Success</h4>
                         <ul>
