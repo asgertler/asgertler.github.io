@@ -1,33 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Logo from './imgs/ag-logo_grn-blu.png'
+import { MdArticle, MdBuildCircle, MdEmail, MdPalette } from 'react-icons/md'
+import './App.sass'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div id='header-container'>
+        <div id='header-logo-name'>
+          <img src={Logo} alt='Aaron Gertler logo' id='header-logo' />
+          <h1>Aaron Gertler</h1>
+        </div>
+
+        <div id='header-nav'>
+          <ul id='header-nav-list'>
+            <li className='header-nav-list-item'><MdPalette className='header-nav-list-item-icon' /> Design</li>
+            <li className='header-nav-list-item'><MdBuildCircle className='header-nav-list-item-icon' />Development</li>
+            <li className='header-nav-list-item'><MdArticle className='header-nav-list-item-icon' />Résumé</li>
+            <li id='header-nav-list-item-contact' className='header-nav-list-item'>
+              <MdEmail className='header-nav-list-item-icon' />Contact
+            </li>
+          </ul>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
