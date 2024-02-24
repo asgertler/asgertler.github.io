@@ -219,6 +219,7 @@ function App() {
 
       <div id='footer'>
         <div id='footer-copyright'>
+          <div id='version'>v{APP_VERSION}</div>
           Copyright © {currentYear} Aaron Gertler. All Rights Reserved.
         </div>
 
