@@ -1,5 +1,7 @@
+@use './variables'
+
 #root
-  color: #241c15
+  color: variables.$black
   margin: 0 auto
   padding: 4rem
   width: 100%
@@ -65,7 +67,7 @@ body
   gap: .25rem
 
 #header-nav-list-item-contact
-  background-color: #54FF9B
+  background-color: variables.$green
   color: #241c15
   padding: 1rem 1.5rem
   border-radius: .25rem
@@ -123,8 +125,8 @@ body
   gap: 1rem
 
 .skills-item
-  background-color: #241c15
-  color: #f2f2f2
+  background-color: variables.$black
+  color: variables.$white
   border-radius: .25rem
   padding: 1rem
   display: flex
@@ -166,8 +168,8 @@ body
   height: 1.5rem
 
 #footer
-  color: #f2f2f2
-  background-color: #241c15
+  color: variables.$white
+  background-color: variables.$black
   border-radius: .25rem
   font-weight: bold
   padding: 2rem
