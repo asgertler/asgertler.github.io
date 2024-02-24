@@ -4,6 +4,8 @@ import './App.sass'
 
 function App() {
 
+  const currentYear = new Date().getFullYear()
+
   return (
     <>
       <div id='header-container'>
@@ -22,6 +24,10 @@ function App() {
             </li>
           </ul>
         </div>
+      </div>
+
+      <div id='footer'>
+        Copyright © {currentYear} Aaron Gertler. All Rights Reserved.
       </div>
     </>
   )
