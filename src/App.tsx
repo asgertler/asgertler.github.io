@@ -7,7 +7,7 @@ import {
   MdEmail,
   MdPalette
 } from 'react-icons/md'
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiOutlineDribbble } from 'react-icons/ai'
 import { 
   FaBootstrap,
   FaCss3,
@@ -16,7 +16,8 @@ import {
   FaLightbulb,
   FaLinux,
   FaPen,
-  FaReact,FaUser,
+  FaReact,
+  FaUser,
   FaGitlab,
   FaJira,
   FaNpm,
@@ -221,6 +222,7 @@ function App() {
 
         <ul id='footer-socials'>
           <li className='footer-socials-icon' onClick={() => window.open('https://www.instagram.com/aaron.gertler/')}><AiFillInstagram /></li>
+          <li className='footer-socials-icon' onClick={() => window.open('https://dribbble.com/aarongertler')}><AiOutlineDribbble /></li>
           <li className='footer-socials-icon' onClick={() => window.open('https://github.com/asgertler')}><AiFillGithub /></li>
           <li className='footer-socials-icon' onClick={() => window.open('https://www.linkedin.com/in/asgertler/')}><AiFillLinkedin /></li>
         </ul>
