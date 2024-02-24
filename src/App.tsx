@@ -69,7 +69,8 @@ import './App.sass'
 
 function App() {
 
-  const currentYear = new Date().getFullYear()
+  const appVersion: string = APP_VERSION
+  const currentYear: number = new Date().getFullYear()
 
   return (
     <>
@@ -219,7 +220,7 @@ function App() {
 
       <div id='footer'>
         <div id='footer-copyright'>
-          <div id='version'>v{APP_VERSION}</div>
+          <div id='version'>v{appVersion}</div>
           Copyright © {currentYear} Aaron Gertler. All Rights Reserved.
         </div>
 
