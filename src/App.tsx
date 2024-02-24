@@ -161,11 +161,11 @@ function App() {
           <li className='interests-item' style={{ color: '#f2f2f2', backgroundColor: '#D35400'}}>
             <img src={Basketball} alt='Basketball' className='interests-icon' /> Basketball
           </li>
-          <li className='interests-item' style={{ color: 'white', backgroundColor: '#F39C12'}}>
-            <img src={Beer} alt='Craft Beer' className='interests-icon' /> Craft Beer
-          </li>
           <li className='interests-item' style={{ color: 'white', backgroundColor: '#13274F'}}>
             <img src={Braves} alt='Braves' className='interests-icon' /> Braves
+          </li>
+          <li className='interests-item' style={{ color: 'white', backgroundColor: '#F39C12'}}>
+            <img src={Beer} alt='Craft Beer' className='interests-icon' /> Craft Beer
           </li>
           <li className='interests-item' style={{ color: '#f2f2f2', backgroundColor: '#2ECC71'}}>
             <img src={DIY} alt='DIY' className='interests-icon' /> DIY
