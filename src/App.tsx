@@ -87,7 +87,9 @@ function App() {
             <li className='header-nav-list-item'><MdBuildCircle className='header-nav-list-item-icon' />Development</li>
             <li className='header-nav-list-item'><a href={Resume} target='_blank'><MdArticle className='header-nav-list-item-icon' />Résumé</a></li>
             <li id='header-nav-list-item-contact' className='header-nav-list-item'>
-              <MdEmail className='header-nav-list-item-icon' />Contact
+              <a href="mailto:aaron.gertler@gmail.com?subject=Let's Work Together">
+                <MdEmail className='header-nav-list-item-icon' />Contact
+              </a>
             </li>
           </ul>
         </div>
