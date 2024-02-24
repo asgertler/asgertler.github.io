@@ -42,9 +42,17 @@ import {
 } from 'react-icons/si'
 import Alabama from './imgs/alabama.svg'
 import Barons from './imgs/barons.svg'
+import Baseball from './imgs/baseball.svg'
+import Basketball from './imgs/basketball.svg'
+import Beer from './imgs/beer.svg'
 import Braves from './imgs/braves.svg'
 import DIY from './imgs/diy.svg'
+import DragonCon from './imgs/dragoncon.svg'
+import Football from './imgs/football.svg'
+import Gaming from './imgs/gaming.svg'
 import Golf from './imgs/golf.svg'
+import Hockey from './imgs/hockey.svg'
+import Homelab from './imgs/homelab.svg'
 import Kayak from './imgs/kayak.svg'
 import Legion from './imgs/legion.svg'
 import NashSC from './imgs/nash-sc.svg'
@@ -79,6 +87,11 @@ function App() {
             </li>
           </ul>
         </div>
+      </div>
+
+      <div id='hero-container'>
+        <h2>This Page is a WIP</h2>
+        <h3>UI/UX Designer & Front-End Developer</h3>
       </div>
 
       <div id='skills-container'>
@@ -135,14 +148,38 @@ function App() {
           <li className='interests-item' style={{ color: 'white', backgroundColor: '#231f20'}}>
             <img src={Barons} alt='Barons' className='interests-icon' /> Barons
           </li>
+          <li className='interests-item' style={{ color: '#f2f2f2', backgroundColor: '#2980B9'}}>
+            <img src={Baseball} alt='Baseball' className='interests-icon' /> Baseball
+          </li>
+          <li className='interests-item' style={{ color: '#f2f2f2', backgroundColor: '#D35400'}}>
+            <img src={Basketball} alt='Basketball' className='interests-icon' /> Basketball
+          </li>
+          <li className='interests-item' style={{ color: 'white', backgroundColor: '#F39C12'}}>
+            <img src={Beer} alt='Craft Beer' className='interests-icon' /> Craft Beer
+          </li>
           <li className='interests-item' style={{ color: 'white', backgroundColor: '#13274F'}}>
             <img src={Braves} alt='Braves' className='interests-icon' /> Braves
           </li>
           <li className='interests-item' style={{ color: '#f2f2f2', backgroundColor: '#2ECC71'}}>
             <img src={DIY} alt='DIY' className='interests-icon' /> DIY
           </li>
+          <li className='interests-item' style={{ color: '#f2f2f2', backgroundColor: '#8E44AD'}}>
+            <img src={DragonCon} alt='Dragon Con' className='interests-icon' /> Dragon Con
+          </li>
+          <li className='interests-item' style={{ color: '#f2f2f2', backgroundColor: '#964B00'}}>
+            <img src={Football} alt='Football' className='interests-icon' /> Football
+          </li>
+          <li className='interests-item' style={{ color: '#f2f2f2', backgroundColor: '#E74C3C'}}>
+            <img src={Gaming} alt='Gaming' className='interests-icon' /> Gaming
+          </li>
           <li className='interests-item' style={{ color: '#f2f2f2', backgroundColor: '#1ABC9C'}}>
             <img src={Golf} alt='Golf' className='interests-icon' /> Golf
+          </li>
+          <li className='interests-item' style={{ color: '#f2f2f2', backgroundColor: '#2C3E50'}}>
+            <img src={Hockey} alt='Hockey' className='interests-icon' /> Hockey
+          </li>
+          <li className='interests-item' style={{ color: '#f2f2f2', backgroundColor: '#34495E'}}>
+            <img src={Homelab} alt='Homelab' className='interests-icon' /> Homelab
           </li>
           <li className='interests-item' style={{ color: '#f2f2f2', backgroundColor: '#3498DB'}}>
             <img src={Kayak} alt='Kayaking' className='interests-icon' /> Kayaking
