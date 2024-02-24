@@ -86,8 +86,8 @@ function App() {
             <li className='skills-item'><FaBootstrap /> Bootstrap</li>
             <li className='skills-item'><FaCss3 /> CSS3</li>
             <li className='skills-item'><SiFirebase /> Firebase</li>
-            <li className='skills-item'><AiFillGithub /> Github</li>
-            <li className='skills-item'><FaGitlab /> Gitlab</li>
+            <li className='skills-item'><AiFillGithub /> GitHub</li>
+            <li className='skills-item'><FaGitlab /> GitLab</li>
             <li className='skills-item'><FaHtml5 /> HTML5</li>
             <li className='skills-item'><SiJavascript /> Javascript</li>
             <li className='skills-item'><FaJira /> Jira</li>
