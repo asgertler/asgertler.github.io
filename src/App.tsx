@@ -1,7 +1,13 @@
 import Logo from './imgs/ag-logo_grn-blu.png'
-import { MdAltRoute, MdArticle, MdBuildCircle, MdEmail, MdPalette } from 'react-icons/md'
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
 import Resume from './docs/aaron-gertler_resume.pdf'
+import { 
+  MdAltRoute, 
+  MdArticle, 
+  MdBuildCircle, 
+  MdEmail,
+  MdPalette
+} from 'react-icons/md'
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
 import { 
   FaBootstrap,
   FaCss3,
@@ -34,6 +40,21 @@ import {
   SiTailwindcss,
   SiTypescript,
 } from 'react-icons/si'
+import Alabama from './imgs/alabama.svg'
+import Barons from './imgs/barons.svg'
+import Braves from './imgs/braves.svg'
+import DIY from './imgs/diy.svg'
+import Golf from './imgs/golf.svg'
+import Kayak from './imgs/kayak.svg'
+import Legion from './imgs/legion.svg'
+import NashSC from './imgs/nash-sc.svg'
+import Photo from './imgs/photo.svg'
+import Preds from './imgs/preds.svg'
+import Sounds from './imgs/sounds.svg'
+import Stallions from './imgs/stallions.svg'
+import Terps from './imgs/terps.svg'
+import Titans from './imgs/titans.svg'
+import Travel from './imgs/travel.svg'
 import './App.sass'
 
 function App() {
@@ -62,7 +83,7 @@ function App() {
 
       <div id='skills-container'>
         <div className='skills-container-item'>
-          <h2 id='design-skills-target'>Design Skills</h2>
+          <h2 id='design-skills-target'>Design Skills //</h2>
           <ul id='design-skills-list'>
             <li className='skills-item'><SiAdobeaftereffects /> After Effects</li>
             <li className='skills-item'><FaLightbulb /> Branding</li>
@@ -80,7 +101,7 @@ function App() {
         </div>
 
         <div className='skills-container-item'>
-          <h2 id='development-skills-target'>Development Skills</h2>
+          <h2 id='development-skills-target'>Development Skills //</h2>
           <ul id='development-skills-list'>
             <li className='skills-item'><SiAntdesign /> ANT Design</li>
             <li className='skills-item'><FaBootstrap /> Bootstrap</li>
@@ -103,6 +124,57 @@ function App() {
             <li className='skills-item'><FaYarn /> Yarn</li>
           </ul>
         </div>
+      </div>
+
+      <div className='interests-container'>
+        <h2 id='interests-title'>Interests //</h2>
+        <ul id='interests-list'>
+          <li className='interests-item' style={{ color: 'white', backgroundColor: '#990000'}}>
+            <img src={Alabama} alt='Alabama' className='interests-icon' /> Alabama
+          </li>
+          <li className='interests-item' style={{ color: 'white', backgroundColor: '#231f20'}}>
+            <img src={Barons} alt='Barons' className='interests-icon' /> Barons
+          </li>
+          <li className='interests-item' style={{ color: 'white', backgroundColor: '#13274F'}}>
+            <img src={Braves} alt='Braves' className='interests-icon' /> Braves
+          </li>
+          <li className='interests-item' style={{ color: '#f2f2f2', backgroundColor: '#2ECC71'}}>
+            <img src={DIY} alt='DIY' className='interests-icon' /> DIY
+          </li>
+          <li className='interests-item' style={{ color: '#f2f2f2', backgroundColor: '#1ABC9C'}}>
+            <img src={Golf} alt='Golf' className='interests-icon' /> Golf
+          </li>
+          <li className='interests-item' style={{ color: '#f2f2f2', backgroundColor: '#3498DB'}}>
+            <img src={Kayak} alt='Kayaking' className='interests-icon' /> Kayaking
+          </li>
+          <li className='interests-item' style={{ color: 'white', backgroundColor: '#9f8a59'}}>
+            <img src={Legion} alt='Legion FC' className='interests-icon' /> Legion FC
+          </li>
+          <li className='interests-item' style={{ color: 'white', backgroundColor: '#E03a3e'}}>
+            <img src={Terps} alt='Maryland' className='interests-icon' /> Maryland
+          </li>
+          <li className='interests-item' style={{ color: '#1F1646', backgroundColor: '#ECE83A'}}>
+            <img src={NashSC} alt='Nashville SC' className='interests-icon' /> Nashville SC
+          </li>
+          <li className='interests-item' style={{ color: '#f2f2f2', backgroundColor: '#241c15'}}>
+            <img src={Photo} alt='Preds' className='interests-icon' style={{ height: '1rem' }} /> Photography
+          </li>
+          <li className='interests-item' style={{ color: '#041E42', backgroundColor: '#FFB81C'}}>
+            <img src={Preds} alt='Preds' className='interests-icon' /> Preds
+          </li>
+          <li className='interests-item' style={{ color: 'white', backgroundColor: '#071D49'}}>
+            <img src={Sounds} alt='Sounds' className='interests-icon' /> Sounds
+          </li>
+          <li className='interests-item' style={{ color: 'white', backgroundColor: '#a32035'}}>
+            <img src={Stallions} alt='Stallions' className='interests-icon' /> Stallions
+          </li>
+          <li className='interests-item' style={{ color: 'white', backgroundColor: '#4B92DB'}}>
+            <img src={Titans} alt='Titans' className='interests-icon' /> Titans
+          </li>
+          <li className='interests-item' style={{ color: '#f2f2f2', backgroundColor: '#2ECC71'}}>
+            <img src={Travel} alt='Titans' className='interests-icon' /> Travel
+          </li>
+        </ul>
       </div>
 
       <div id='footer'>
