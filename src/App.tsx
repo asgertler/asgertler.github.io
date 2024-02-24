@@ -1,5 +1,6 @@
 import Logo from './imgs/ag-logo_grn-blu.png'
 import { MdArticle, MdBuildCircle, MdEmail, MdPalette } from 'react-icons/md'
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
 import './App.sass'
 
 function App() {
@@ -27,7 +28,15 @@ function App() {
       </div>
 
       <div id='footer'>
-        Copyright © {currentYear} Aaron Gertler. All Rights Reserved.
+        <div id='footer-copyright'>
+          Copyright © {currentYear} Aaron Gertler. All Rights Reserved.
+        </div>
+
+        <ul id='footer-socials'>
+          <li className='footer-socials-icon' onClick={() => window.open('https://www.instagram.com/aaron.gertler/')}><AiFillInstagram /></li>
+          <li className='footer-socials-icon' onClick={() => window.open('https://github.com/asgertler')}><AiFillGithub /></li>
+          <li className='footer-socials-icon' onClick={() => window.open('https://www.linkedin.com/in/asgertler/')}><AiFillLinkedin /></li>
+        </ul>
       </div>
     </>
   )
