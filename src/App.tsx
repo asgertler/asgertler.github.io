@@ -59,6 +59,7 @@ import Kayak from './imgs/kayak.svg'
 import Legion from './imgs/legion.svg'
 import NashSC from './imgs/nash-sc.svg'
 import Photo from './imgs/photo.svg'
+import Pizza from './imgs/pizza.svg'
 import Preds from './imgs/preds.svg'
 import Sounds from './imgs/sounds.svg'
 import Stallions from './imgs/stallions.svg'
@@ -199,6 +200,9 @@ function App() {
           </li>
           <li className='interests-item' style={{ color: '#f2f2f2', backgroundColor: '#241c15'}}>
             <img src={Photo} alt='Preds' className='interests-icon' style={{ height: '1rem' }} /> Photography
+          </li>
+          <li className='interests-item' style={{ color: '#f2f2f2', backgroundColor: '#e74c3c'}}>
+            <img src={Pizza} alt='Pizza' className='interests-icon' /> Pizza
           </li>
           <li className='interests-item' style={{ color: '#041E42', backgroundColor: '#FFB81C'}}>
             <img src={Preds} alt='Preds' className='interests-icon' /> Preds
