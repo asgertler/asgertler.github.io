@@ -1,6 +1,7 @@
 import Logo from './imgs/ag-logo_grn-blu.png'
 import { MdArticle, MdBuildCircle, MdEmail, MdPalette } from 'react-icons/md'
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
+import Resume from './docs/aaron-gertler_resume.pdf'
 import './App.sass'
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
           <ul id='header-nav-list'>
             <li className='header-nav-list-item'><MdPalette className='header-nav-list-item-icon' /> Design</li>
             <li className='header-nav-list-item'><MdBuildCircle className='header-nav-list-item-icon' />Development</li>
-            <li className='header-nav-list-item'><MdArticle className='header-nav-list-item-icon' />Résumé</li>
+            <li className='header-nav-list-item'><a href={Resume} target='_blank'><MdArticle className='header-nav-list-item-icon' />Résumé</a></li>
             <li id='header-nav-list-item-contact' className='header-nav-list-item'>
               <MdEmail className='header-nav-list-item-icon' />Contact
             </li>
