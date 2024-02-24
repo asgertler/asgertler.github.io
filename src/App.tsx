@@ -9,6 +9,7 @@ import {
 } from 'react-icons/md'
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
 import { 
+  FaBitbucket,
   FaBootstrap,
   FaCss3,
   FaFigma, 
@@ -117,6 +118,7 @@ function App() {
           <h2 id='development-skills-target'>Development Skills //</h2>
           <ul id='development-skills-list'>
             <li className='skills-item'><SiAntdesign /> ANT Design</li>
+            <li className='skills-item'><FaBitbucket /> Bitbucket</li>
             <li className='skills-item'><FaBootstrap /> Bootstrap</li>
             <li className='skills-item'><FaCss3 /> CSS3</li>
             <li className='skills-item'><SiFirebase /> Firebase</li>
