@@ -5,14 +5,15 @@ import {
   MdArticle, 
   MdBuildCircle, 
   MdEmail,
-  MdPalette
+  MdPalette,
 } from 'react-icons/md'
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiOutlineDribbble } from 'react-icons/ai'
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiOutlineDribbble, } from 'react-icons/ai'
+import { FaFileDownload, } from 'react-icons/fa'
 import { 
   FaBitbucket,
   FaBootstrap,
   FaCss3,
-  FaFigma, 
+  FaFigma,
   FaHtml5,
   FaLightbulb,
   FaLinux,
@@ -146,6 +147,19 @@ function App() {
         </div>
       </div>
 
+      <div className='section-break'></div>
+
+      <div id='resume-container'>
+        <div id='resume-header'>
+          <h2 id='resume-title'>Résumé //</h2>
+          <a href={Resume} id='resume-download' target='_blank'>
+            <FaFileDownload />
+          </a>
+        </div>
+      </div>
+
+      <div className='section-break'></div>
+
       <div className='interests-container'>
         <h2 id='interests-title'>Interests //</h2>
         <ul id='interests-list'>
@@ -231,9 +245,9 @@ function App() {
         </div>
 
         <ul id='footer-socials'>
-          <li className='footer-socials-icon' onClick={() => window.open('https://www.instagram.com/aaron.gertler/')}><AiFillInstagram /></li>
           <li className='footer-socials-icon' onClick={() => window.open('https://dribbble.com/aarongertler')}><AiOutlineDribbble /></li>
           <li className='footer-socials-icon' onClick={() => window.open('https://github.com/asgertler')}><AiFillGithub /></li>
+          <li className='footer-socials-icon' onClick={() => window.open('https://www.instagram.com/aaron.gertler/')}><AiFillInstagram /></li>
           <li className='footer-socials-icon' onClick={() => window.open('https://www.linkedin.com/in/asgertler/')}><AiFillLinkedin /></li>
         </ul>
       </div>
