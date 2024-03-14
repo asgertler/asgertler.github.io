@@ -92,20 +92,10 @@ function App() {
         </div>
 
         <div id='header-nav'>
-          <ul id='header-nav-list'>
-            <li className='header-nav-list-item'>
-              <Button transparent icon={<MdPalette />} label='Design' />
-            </li>
-            <li className='header-nav-list-item'>
-              <Button transparent icon={<MdBuildCircle />} label='Development' />
-            </li>
-            <li className='header-nav-list-item'>
-              <Button transparent icon={<MdArticle />} label='Résumé' onClick={() => openResume()} />
-            </li>
-            <li className='header-nav-list-item'>
-              <Button primary icon={<MdEmail />} label='Contact' onClick={() => sendEmail()} />
-            </li>
-          </ul>
+          <Button transparent icon={<MdPalette />} label='Design' />
+          <Button transparent icon={<MdBuildCircle />} label='Development' />
+          <Button transparent icon={<MdArticle />} label='Résumé' onClick={() => openResume()} />
+          <Button primary icon={<MdEmail />} label='Contact' onClick={() => sendEmail()} />
         </div>
       </div>
 
