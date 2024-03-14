@@ -6,6 +6,7 @@ interface ButtonProps {
   onClick?: () => void
   outlined?: boolean
   primary?: boolean
+  transparent?: boolean
   type?: string
 }
 
@@ -15,6 +16,7 @@ export const Button = ({
   onClick,
   outlined,
   primary,
+  transparent,
   type,
   ...props
 }: ButtonProps) => {
@@ -22,7 +24,13 @@ export const Button = ({
   return (
     <button
       type="button"
-      className={['button', 'button' + mode, outlined && 'button--outlined', icon && 'button--icon'].join(' ')}
+      className={[
+        'button', 
+        'button' + mode, 
+        outlined && 'button--outlined', 
+        icon && 'button--icon',
+        transparent && 'button--transparent'
+      ].join(' ')}
       onClick={onClick}
       {...props}
     >

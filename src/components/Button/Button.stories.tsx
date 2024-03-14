@@ -6,7 +6,8 @@ import {
   MdEmail, 
   MdError, 
   MdInfo, 
-  MdOutlineWarning 
+  MdOutlineWarning,
+  MdQuestionMark
 } from 'react-icons/md'
 
 const meta = {
@@ -88,5 +89,13 @@ export const Danger: Story = {
     label: 'Danger',
     outlined: false,
     type: 'danger',
+  }
+}
+
+export const Transparent: Story = {
+  args: {
+    icon: <MdQuestionMark />,
+    label: 'Transparent',
+    transparent: true,
   }
 }
