@@ -1,63 +1,74 @@
 @import '../../variables'
 
 .button
-  font-weight: bold
-  padding: 1rem 1.5rem
   border-radius: .375em
   cursor: pointer
   display: inline-block
-  line-height: 1
+  font-family: Montserrat, sans-serif
+  font-size: 1rem
+  font-weight: bold
+  padding: 1rem 1.5rem
 .button:hover
   opacity: .4
 .button:active
   opacity: .75
 
+.button--icon
+  display: flex
+  flex-flow: row nowrap
+  align-items: center
+  gap: .25rem
+
+.button--icon--icon
+  font-size: 2rem
+  line-height: 0
+
 .button--primary
-  color: $black
   background-color: $green
   border: 1px solid $green
+  color: $black
 
 .button--secondary
-  color: $darkgray
   background-color: $lightgray
   border: 1px solid $lightgray
+  color: $darkgray
 
 .button--info
-  color: $white
   background-color: $info
   border: 1px solid $info
+  color: $white
   &.button--outlined
-    color: $info
     background-color: transparent
+    color: $info
 
 .button--success
-  color: $white
   background-color: $success
   border: 1px solid $success
+  color: $white
   &.button--outlined
-    color: $success
     background-color: transparent
+    color: $success
 
 .button--caution
-  color: $black
   background-color: $caution
   border: 1px solid $caution
+  color: $black
   &.button--outlined
-    color: $caution
     background-color: transparent
+    color: $caution
 
 .button--warning
-  color: $white
   background-color: $warning
   border: 1px solid $warning
+  color: $white
   &.button--outlined
-    color: $warning
     background-color: transparent
+    color: $warning
 
 .button--danger
-  color: $white
   background-color: $danger
   border: 1px solid $danger
+  color: $white
   &.button--outlined
-    color: $danger
     background-color: transparent
+    color: $danger

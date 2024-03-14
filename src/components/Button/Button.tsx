@@ -1,10 +1,7 @@
-// import React from 'react';
-import { JSXElementConstructor, ReactElement } from 'react'
 import './button.sass'
 
 interface ButtonProps {
-  backgroundColor?: string
-  icon?: ReactElement<SVGElement, string | JSXElementConstructor<unknown>>
+  icon?: JSX.Element
   label: string
   onClick?: () => void
   outlined?: boolean
@@ -13,9 +10,9 @@ interface ButtonProps {
 }
 
 export const Button = ({
-  backgroundColor,
   icon,
   label,
+  onClick,
   outlined,
   primary,
   type,
@@ -25,12 +22,11 @@ export const Button = ({
   return (
     <button
       type="button"
-      className={['button', 'button' + mode, outlined ? 'button--outlined' : ''].join(' ')}
-      style={{ backgroundColor }}
+      className={['button', 'button' + mode, outlined && 'button--outlined', icon && 'button--icon'].join(' ')}
+      onClick={onClick}
       {...props}
     >
-      { icon ? icon : ''}
-      {label}
+      <div className='button--icon--icon'>{icon && icon}</div>{label}
     </button>
   )
 }
