@@ -3,25 +3,29 @@ import { JSXElementConstructor, ReactElement } from 'react'
 import './button.sass'
 
 interface ButtonProps {
-  primary?: boolean
   backgroundColor?: string
   icon?: ReactElement<SVGElement, string | JSXElementConstructor<unknown>>
   label: string
   onClick?: () => void
+  outlined?: boolean
+  primary?: boolean
+  type?: string
 }
 
 export const Button = ({
-  primary = false,
   backgroundColor,
   icon,
   label,
+  outlined,
+  primary,
+  type,
   ...props
 }: ButtonProps) => {
-  const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary'
+  const mode = type ? `--${type}` : primary ? '--primary' : '--secondary'
   return (
     <button
       type="button"
-      className={['storybook-button', mode].join(' ')}
+      className={['button', 'button' + mode, outlined ? 'button--outlined' : ''].join(' ')}
       style={{ backgroundColor }}
       {...props}
     >
