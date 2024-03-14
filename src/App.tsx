@@ -6,7 +6,7 @@ import {
   MdArticle, 
   MdBuildCircle, 
   MdEmail,
-  MdPalette,
+  MdPalette
 } from 'react-icons/md'
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiOutlineDribbble, } from 'react-icons/ai'
 import { FaFileDownload, } from 'react-icons/fa'
