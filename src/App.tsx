@@ -1,14 +1,5 @@
-import Logo from './imgs/ag-logo_grn-blu.png'
-import { NamePlate } from './components/NamePlate/NamePlate'
-import { Button } from './components/Button/Button'
+import { Header } from './components/Header/Header'
 import Resume from './docs/aaron-gertler_resume.pdf'
-import { 
-  MdAltRoute, 
-  MdArticle, 
-  MdBuildCircle, 
-  MdEmail,
-  MdPalette
-} from 'react-icons/md'
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiOutlineDribbble, } from 'react-icons/ai'
 import { FaFileDownload, } from 'react-icons/fa'
 import { 
@@ -70,32 +61,15 @@ import Terps from './imgs/terps.svg'
 import Titans from './imgs/titans.svg'
 import Travel from './imgs/travel.svg'
 import './App.sass'
+import { MdAltRoute } from 'react-icons/md'
 
 function App() {
-
-  function sendEmail() {
-    window.location.href = "mailto:aaron.gertler@gmail.com?subject=Let's Work Together"
-  }
-
-  function openResume() {
-    window.location.href = Resume
-  }
-
   const appVersion: string = APP_VERSION
   const currentYear: number = new Date().getFullYear()
 
   return (
     <>
-      <div id='header-container'>
-        <NamePlate logo={Logo} name='Aaron Gertler' />
-
-        <div id='header-nav'>
-          <Button transparent icon={<MdPalette />} label='Design' />
-          <Button transparent icon={<MdBuildCircle />} label='Development' />
-          <Button transparent icon={<MdArticle />} label='Résumé' onClick={() => openResume()} />
-          <Button primary icon={<MdEmail />} label='Contact' onClick={() => sendEmail()} />
-        </div>
-      </div>
+      <Header />
 
       <div id='hero-container'>
         <h2>This Page is a WIP</h2>
