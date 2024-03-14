@@ -1,4 +1,5 @@
 import Logo from './imgs/ag-logo_grn-blu.png'
+import { Button } from './components/Button/Button'
 import Resume from './docs/aaron-gertler_resume.pdf'
 import { 
   MdAltRoute, 
@@ -71,6 +72,10 @@ import './App.sass'
 
 function App() {
 
+  function sendEmail() {
+    window.location.href = "mailto:aaron.gertler@gmail.com?subject=Let's Work Together"
+  }
+
   const appVersion: string = APP_VERSION
   const currentYear: number = new Date().getFullYear()
 
@@ -87,10 +92,8 @@ function App() {
             <li className='header-nav-list-item'><MdPalette className='header-nav-list-item-icon' /> Design</li>
             <li className='header-nav-list-item'><MdBuildCircle className='header-nav-list-item-icon' />Development</li>
             <li className='header-nav-list-item'><a href={Resume} target='_blank'><MdArticle className='header-nav-list-item-icon' />Résumé</a></li>
-            <li id='header-nav-list-item-contact' className='header-nav-list-item'>
-              <a href="mailto:aaron.gertler@gmail.com?subject=Let's Work Together">
-                <MdEmail className='header-nav-list-item-icon' />Contact
-              </a>
+            <li>
+              <Button primary icon={<MdEmail />} label='Contact' onClick={() => sendEmail()} />
             </li>
           </ul>
         </div>
