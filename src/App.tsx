@@ -76,6 +76,10 @@ function App() {
     window.location.href = "mailto:aaron.gertler@gmail.com?subject=Let's Work Together"
   }
 
+  function openResume() {
+    window.location.href = Resume
+  }
+
   const appVersion: string = APP_VERSION
   const currentYear: number = new Date().getFullYear()
 
@@ -89,10 +93,16 @@ function App() {
 
         <div id='header-nav'>
           <ul id='header-nav-list'>
-            <li className='header-nav-list-item'><MdPalette className='header-nav-list-item-icon' /> Design</li>
-            <li className='header-nav-list-item'><MdBuildCircle className='header-nav-list-item-icon' />Development</li>
-            <li className='header-nav-list-item'><a href={Resume} target='_blank'><MdArticle className='header-nav-list-item-icon' />Résumé</a></li>
-            <li>
+            <li className='header-nav-list-item'>
+              <Button transparent icon={<MdPalette />} label='Design' />
+            </li>
+            <li className='header-nav-list-item'>
+              <Button transparent icon={<MdBuildCircle />} label='Development' />
+            </li>
+            <li className='header-nav-list-item'>
+              <Button transparent icon={<MdArticle />} label='Résumé' onClick={() => openResume()} />
+            </li>
+            <li className='header-nav-list-item'>
               <Button primary icon={<MdEmail />} label='Contact' onClick={() => sendEmail()} />
             </li>
           </ul>
