@@ -9,15 +9,6 @@ import {
   MdOutlineWarning 
 } from 'react-icons/md'
 
-const iconOptions = [
-  <MdEmail />,
-  <MdCheckCircle />,
-  <MdDelete />,
-  <MdError />,
-  <MdInfo />,
-  <MdOutlineWarning />,
-]
-
 const meta = {
   title: 'Components/Button',
   component: Button,
