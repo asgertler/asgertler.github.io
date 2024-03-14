@@ -1,4 +1,5 @@
 import Logo from './imgs/ag-logo_grn-blu.png'
+import { NamePlate } from './components/NamePlate/NamePlate'
 import { Button } from './components/Button/Button'
 import Resume from './docs/aaron-gertler_resume.pdf'
 import { 
@@ -86,10 +87,7 @@ function App() {
   return (
     <>
       <div id='header-container'>
-        <div id='header-logo-name'>
-          <img src={Logo} alt='Aaron Gertler logo' id='header-logo' />
-          <h1>Aaron Gertler</h1>
-        </div>
+        <NamePlate logo={Logo} name='Aaron Gertler' />
 
         <div id='header-nav'>
           <Button transparent icon={<MdPalette />} label='Design' />
