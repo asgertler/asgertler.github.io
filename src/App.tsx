@@ -72,8 +72,8 @@ function App() {
       <Header />
 
       <div id='hero-container'>
-        <h2>This Page is a WIP</h2>
-        <h3>UI/UX Designer & Front-End Developer</h3>
+        <h2>UI/UX Designer</h2>
+        <h2>Front-End Developer</h2>
       </div>
 
       <div id='skills-container'>

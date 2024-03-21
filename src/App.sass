@@ -33,6 +33,10 @@ body
   flex-flow: column nowrap
   justify-content: center
   align-items: center
+  gap: 2rem
+  h2
+    font-size: 2rem
+    margin: 0
 
 #skills-container
   display: flex
@@ -171,8 +175,8 @@ body
   display: flex
   flex-flow: row nowrap
   align-items: center
-.footer-socials-icon:hover
-  cursor: pointer
-  opacity: .4
-.footer-socials-icon:active
-  opacity: .75
+  &:hover
+    cursor: pointer
+    opacity: .4
+  &:active
+    opacity: .75
