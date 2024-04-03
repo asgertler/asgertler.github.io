@@ -1,4 +1,5 @@
 import { Header } from './components/Header/Header'
+import { Button } from './components/Button/Button'
 import Resume from './docs/aaron-gertler_resume.pdf'
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiOutlineDribbble, } from 'react-icons/ai'
 import { FaFileDownload, } from 'react-icons/fa'
@@ -66,6 +67,10 @@ import { MdAltRoute } from 'react-icons/md'
 function App() {
   const appVersion: string = APP_VERSION
   const currentYear: number = new Date().getFullYear()
+    
+  function openResume() {
+      window.location.href = Resume
+  }
 
   return (
     <>
@@ -127,9 +132,7 @@ function App() {
       <div id='resume-container'>
         <div id='resume-header'>
           <h2 id='resume-title'>Résumé //</h2>
-          <a href={Resume} id='resume-download' target='_blank'>
-            <FaFileDownload />
-          </a>
+          <Button label='Download' icon={<FaFileDownload />} onClick={() => openResume()} />
         </div>
       </div>
 
