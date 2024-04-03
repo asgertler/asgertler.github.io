@@ -3,11 +3,14 @@
 #root
   color: variables.$black
   margin: 0 auto
-  padding: 4rem
   width: 100%
   display: flex
   flex-flow: column nowrap
   gap: 4rem
+  @media (width <= variables.$mobileBreakPoint)
+    padding: 2rem
+  @media (width > variables.$mobileBreakPoint)
+    padding: 4rem
 
 body
   margin: 0

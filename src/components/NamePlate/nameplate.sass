@@ -1,3 +1,5 @@
+@use '../../variables'
+
 #nameplate
     font-family: Montserrat, sans-serif
     display: flex
@@ -6,7 +8,10 @@
     align-items: center
     gap: 1rem
     h1
-        font-size: 2rem
+        @media (width <= variables.$mobileBreakPoint)
+            display: none
+        @media (width > variables.$mobileBreakPoint)
+            font-size: 2rem
 
 #nameplate--logo
     border-radius: 24%
