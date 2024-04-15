@@ -5,9 +5,9 @@ import './header.sass'
 
 export const Header = () => {
     return (
-        <div id='header'>
+        <header>
             <NamePlate logo={Logo} name='Aaron Gertler' />
             <NavBar />
-        </div>
+        </header>
     )
 }
