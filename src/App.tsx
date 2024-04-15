@@ -1,7 +1,8 @@
 import { Header } from './components/Header/Header'
 import { Button } from './components/Button/Button'
+import { Footer } from './components/Footer/Footer'
 import Resume from './docs/aaron-gertler_resume.pdf'
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiOutlineDribbble, } from 'react-icons/ai'
+import { AiFillGithub } from 'react-icons/ai'
 import { FaFileDownload, } from 'react-icons/fa'
 import { 
   FaBitbucket,
@@ -65,9 +66,6 @@ import './App.sass'
 import { MdAltRoute } from 'react-icons/md'
 
 function App() {
-  const appVersion: string = APP_VERSION
-  const currentYear: number = new Date().getFullYear()
-    
   function openResume() {
       window.location.href = Resume
   }
@@ -216,19 +214,7 @@ function App() {
         </ul>
       </div>
 
-      <div id='footer'>
-        <div id='footer-copyright'>
-          <div id='version'>v{appVersion}</div>
-          Copyright © {currentYear} Aaron Gertler. All Rights Reserved.
-        </div>
-
-        <ul id='footer-socials'>
-          <li className='footer-socials-icon' onClick={() => window.open('https://dribbble.com/aarongertler')}><AiOutlineDribbble /></li>
-          <li className='footer-socials-icon' onClick={() => window.open('https://github.com/asgertler')}><AiFillGithub /></li>
-          <li className='footer-socials-icon' onClick={() => window.open('https://www.instagram.com/aaron.gertler/')}><AiFillInstagram /></li>
-          <li className='footer-socials-icon' onClick={() => window.open('https://www.linkedin.com/in/asgertler/')}><AiFillLinkedin /></li>
-        </ul>
-      </div>
+      <Footer />
     </>
   )
 }
