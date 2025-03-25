@@ -1,7 +1,8 @@
 import { Header } from './components/Header/Header'
 import { Button } from './components/Button/Button'
+import { Footer } from './components/Footer/Footer'
 import Resume from './docs/aaron-gertler_resume.pdf'
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiOutlineDribbble, } from 'react-icons/ai'
+import { AiFillGithub } from 'react-icons/ai'
 import { FaFileDownload, } from 'react-icons/fa'
 import { 
   FaBitbucket,
@@ -37,37 +38,34 @@ import {
   SiTailwindcss,
   SiTypescript,
 } from 'react-icons/si'
-import Alabama from './imgs/alabama.svg'
-import Barons from './imgs/barons.svg'
-import Baseball from './imgs/baseball.svg'
-import Basketball from './imgs/basketball.svg'
-import Beer from './imgs/beer.svg'
-import Braves from './imgs/braves.svg'
-import DIY from './imgs/diy.svg'
-import DragonCon from './imgs/dragoncon.svg'
-import Football from './imgs/football.svg'
-import Gaming from './imgs/gaming.svg'
-import Golf from './imgs/golf.svg'
-import Hockey from './imgs/hockey.svg'
-import Homelab from './imgs/homelab.svg'
-import Kayak from './imgs/kayak.svg'
-import Legion from './imgs/legion.svg'
-import NashSC from './imgs/nash-sc.svg'
-import Photo from './imgs/photo.svg'
-import Pizza from './imgs/pizza.svg'
-import Preds from './imgs/preds.svg'
-import Sounds from './imgs/sounds.svg'
-import Stallions from './imgs/stallions.svg'
-import Terps from './imgs/terps.svg'
-import Titans from './imgs/titans.svg'
-import Travel from './imgs/travel.svg'
+import Alabama from './imgs/interests/alabama.svg'
+import Barons from './imgs/interests/barons.svg'
+import Baseball from './imgs/interests/baseball.svg'
+import Basketball from './imgs/interests/basketball.svg'
+import Beer from './imgs/interests/beer.svg'
+import Braves from './imgs/interests/braves.svg'
+import DIY from './imgs/interests/diy.svg'
+import DragonCon from './imgs/interests/dragoncon.svg'
+import Football from './imgs/interests/football.svg'
+import Gaming from './imgs/interests/gaming.svg'
+import Golf from './imgs/interests/golf.svg'
+import Hockey from './imgs/interests/hockey.svg'
+import Homelab from './imgs/interests/homelab.svg'
+import Kayak from './imgs/interests/kayak.svg'
+import Legion from './imgs/interests/legion.svg'
+import NashSC from './imgs/interests/nash-sc.svg'
+import Photo from './imgs/interests/photo.svg'
+import Pizza from './imgs/interests/pizza.svg'
+import Preds from './imgs/interests/preds.svg'
+import Sounds from './imgs/interests/sounds.svg'
+import Stallions from './imgs/interests/stallions.svg'
+import Terps from './imgs/interests/terps.svg'
+import Titans from './imgs/interests/titans.svg'
+import Travel from './imgs/interests/travel.svg'
 import './App.sass'
 import { MdAltRoute } from 'react-icons/md'
 
 function App() {
-  const appVersion: string = APP_VERSION
-  const currentYear: number = new Date().getFullYear()
-    
   function openResume() {
       window.location.href = Resume
   }
@@ -216,19 +214,7 @@ function App() {
         </ul>
       </div>
 
-      <div id='footer'>
-        <div id='footer-copyright'>
-          <div id='version'>v{appVersion}</div>
-          Copyright © {currentYear} Aaron Gertler. All Rights Reserved.
-        </div>
-
-        <ul id='footer-socials'>
-          <li className='footer-socials-icon' onClick={() => window.open('https://dribbble.com/aarongertler')}><AiOutlineDribbble /></li>
-          <li className='footer-socials-icon' onClick={() => window.open('https://github.com/asgertler')}><AiFillGithub /></li>
-          <li className='footer-socials-icon' onClick={() => window.open('https://www.instagram.com/aaron.gertler/')}><AiFillInstagram /></li>
-          <li className='footer-socials-icon' onClick={() => window.open('https://www.linkedin.com/in/asgertler/')}><AiFillLinkedin /></li>
-        </ul>
-      </div>
+      <Footer />
     </>
   )
 }
