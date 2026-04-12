@@ -8,7 +8,8 @@ const config: StorybookConfig = {
     "@storybook/addon-onboarding",
     "@chromatic-com/storybook",
     "@storybook/addon-docs",
-    "@storybook/addon-vitest"
+    "@storybook/addon-vitest",
+    "@storybook/addon-a11y"
   ],
 
   framework: {

@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^5.1.1",
+    "@storybook/addon-a11y": "^10.3.5",
     "@storybook/addon-docs": "^10.3.5",
     "@storybook/addon-links": "^10.3.5",
     "@storybook/addon-onboarding": "^10.3.5",
@@ -29,18 +30,18 @@
     "@typescript-eslint/eslint-plugin": "^7.0.2",
     "@typescript-eslint/parser": "^7.0.2",
     "@vitejs/plugin-react": "^4.2.1",
+    "@vitest/browser-playwright": "^4.1.4",
+    "@vitest/coverage-v8": "^4.1.4",
     "chromatic": "^11.0.8",
     "eslint": "^8.56.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "eslint-plugin-storybook": "^10.3.5",
+    "playwright": "^1.59.1",
     "sass": "^1.71.1",
     "storybook": "^10.3.5",
     "typescript": "^5.2.2",
     "vite": "^5.1.4",
-    "vitest": "^4.1.4",
-    "playwright": "^1.59.1",
-    "@vitest/browser-playwright": "^4.1.4",
-    "@vitest/coverage-v8": "^4.1.4"
+    "vitest": "^4.1.4"
   }
 }
