@@ -29,7 +29,7 @@
     "@types/react-dom": "^18.2.19",
     "@typescript-eslint/eslint-plugin": "^7.0.2",
     "@typescript-eslint/parser": "^7.0.2",
-    "@vitejs/plugin-react": "^4.2.1",
+    "@vitejs/plugin-react": "^6.0.1",
     "@vitest/browser-playwright": "^4.1.4",
     "@vitest/coverage-v8": "^4.1.4",
     "chromatic": "^11.0.8",
@@ -41,7 +41,7 @@
     "sass": "^1.71.1",
     "storybook": "^10.3.5",
     "typescript": "^5.2.2",
-    "vite": "^5.1.4",
+    "vite": "^8.0.8",
     "vitest": "^4.1.4"
   }
 }
