@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/react'
+import type { Meta, StoryObj } from '@storybook/react-vite'
 import { NamePlate } from './NamePlate'
 import Logo from '../../imgs/logos/ag-logo_grn-blu.png'
 
