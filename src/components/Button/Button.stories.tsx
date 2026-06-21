@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react-vite'
+import { expect, fn } from 'storybook/test';
 import { Button } from './Button'
 import { 
   MdCheckCircle, 
@@ -13,6 +14,9 @@ import {
 const meta = {
   title: 'Components/Button',
   component: Button,
+  args: {
+    onClick: fn(),
+  },
   parameters: {
     layout: 'centered',
   },
