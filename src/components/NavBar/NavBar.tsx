@@ -5,7 +5,7 @@ import './navbar.sass'
 
 export const NavBar = () => {
     function sendEmail() {
-        window.location.href = "mailto:aaron.gertler@gmail.com?subject=Let's Work Together"
+        window.location.href = "mailto:aaron.gertler@pm.me?subject=Let's Work Together"
     }
     
     function openResume() {

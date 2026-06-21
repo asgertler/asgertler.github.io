@@ -112,15 +112,6 @@ function App() {
 
       <div className='section-break'></div>
 
-      <div id='resume-container'>
-        <div id='resume-header'>
-          <h2 id='resume-title'>Résumé //</h2>
-          <Button label='Download' icon={<FaFileDownload />} onClick={() => openResume()} />
-        </div>
-      </div>
-
-      <div className='section-break'></div>
-
       <div className='interests-container'>
         <h2 id='interests-title'>Interests //</h2>
         <ul id='interests-list'>
