@@ -1,5 +1,5 @@
 import { Button } from '../Button/Button'
-import { MdArticle, MdBuildCircle, MdEmail, MdPalette } from "react-icons/md"
+import { MdArticle, MdEmail } from "react-icons/md"
 import Resume from '../../docs/aaron-gertler_resume.pdf'
 import './navbar.sass'
 
