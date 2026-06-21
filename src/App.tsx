@@ -22,13 +22,6 @@ import {
   FaYarn,
 } from 'react-icons/fa6'
 import { 
-  SiAdobeaftereffects,
-  SiAdobeillustrator, 
-  SiAdobeindesign, 
-  SiAdobelightroom, 
-  SiAdobelightroomclassic ,
-  SiAdobephotoshop,
-  SiAdobepremierepro,
   SiAntdesign,
   SiFirebase,
   SiJavascript,
@@ -82,17 +75,10 @@ function App() {
         <div className='skills-container-item'>
           <h2 id='design-skills-target'>Design Skills //</h2>
           <ul id='design-skills-list'>
-            <li className='skills-item'><SiAdobeaftereffects /> After Effects</li>
             <li className='skills-item'><FaLightbulb /> Branding</li>
             <li className='skills-item'><FaPen /> Copywriting</li>
             <li className='skills-item'><FaFigma /> Figma</li>
             <li className='skills-item'><MdAltRoute /> Journey Mapping</li>
-            <li className='skills-item'><SiAdobeillustrator /> Illustrator</li>
-            <li className='skills-item'><SiAdobeindesign /> InDesign</li>
-            <li className='skills-item'><SiAdobelightroom /> Lightroom</li>
-            <li className='skills-item'><SiAdobelightroomclassic /> Lightroom Classic</li>
-            <li className='skills-item'><SiAdobephotoshop /> Photoshop</li>
-            <li className='skills-item'><SiAdobepremierepro /> Premiere Pro</li>
             <li className='skills-item'><FaUser /> User Testing</li>
           </ul>
         </div>

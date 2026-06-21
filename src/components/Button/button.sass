@@ -1,10 +1,10 @@
-@import '../../variables'
+@use '../../variables'
 
 .button
   border-radius: .375em
   cursor: pointer
   display: inline-block
-  font-family: Montserrat, sans-serif
+  font-family: variables.$font-sans, sans-serif
   font-size: 1rem
   font-weight: bold
   padding: 1rem 1.5rem
@@ -23,64 +23,64 @@
   line-height: 0
 
 .button--primary
-  background-color: $green
-  border: 1px solid $green
-  color: $black
+  background-color: variables.$green
+  border: 1px solid variables.$green
+  color: variables.$black
   &.button--outlined
     background-color: transparent
-    color: $green
+    color: variables.$green
 
 .button--secondary
-  background-color: $lightgray
-  border: 1px solid $lightgray
-  color: $darkgray
+  background-color: variables.$lightgray
+  border: 1px solid variables.$lightgray
+  color: variables.$darkgray
   &.button--outlined
     background-color: transparent
-    border-color: $darkgray
-    color: $darkgray
+    border-color: variables.$darkgray
+    color: variables.$darkgray
 
 .button--info
-  background-color: $info
-  border: 1px solid $info
-  color: $white
+  background-color: variables.$info
+  border: 1px solid variables.$info
+  color: variables.$white
   &.button--outlined
     background-color: transparent
-    color: $info
+    color: variables.$info
 
 .button--success
-  background-color: $success
-  border: 1px solid $success
-  color: $white
+  background-color: variables.$success
+  border: 1px solid variables.$success
+  color: variables.$white
   &.button--outlined
     background-color: transparent
-    color: $success
+    color: variables.$success
 
 .button--caution
-  background-color: $caution
-  border: 1px solid $caution
-  color: $black
+  background-color: variables.$caution
+  border: 1px solid variables.$caution
+  color: variables.$black
   &.button--outlined
     background-color: transparent
-    color: $caution
+    color: variables.$caution
 
 .button--warning
-  background-color: $warning
-  border: 1px solid $warning
-  color: $white
+  background-color: variables.$warning
+  border: 1px solid variables.$warning
+  color: variables.$white
   &.button--outlined
     background-color: transparent
-    color: $warning
+    color: variables.$warning
 
 .button--danger
-  background-color: $danger
-  border: 1px solid $danger
-  color: $white
+  background-color: variables.$danger
+  border: 1px solid variables.$danger
+  color: variables.$white
   &.button--outlined
     background-color: transparent
-    color: $danger
+    color: variables.$danger
 
 .button--transparent
   background-color: transparent
   border: none
-  color: $black
+  color: variables.$black
   padding: 1rem 0rem
