@@ -14,8 +14,6 @@ export const NavBar = () => {
 
     return (
         <div id='navbar'>
-            <Button transparent icon={<MdPalette />} label='Design' />
-            <Button transparent icon={<MdBuildCircle />} label='Development' />
             <Button transparent icon={<MdArticle />} label='Résumé' onClick={() => openResume()} />
             <Button primary icon={<MdEmail />} label='Contact' onClick={() => sendEmail()} />
         </div>
