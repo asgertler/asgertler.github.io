@@ -75,8 +75,7 @@ function App() {
       <Header />
 
       <div id='hero-container'>
-        <h2>UI/UX Designer</h2>
-        <h2>Front-End Developer</h2>
+        <h2>Design Engineer</h2>
       </div>
 
       <div id='skills-container'>
