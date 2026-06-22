@@ -9,7 +9,7 @@ export const Footer = () => {
         <footer>
             <div id='copyright'>
                 <div id='version'>v{appVersion}</div>
-                Copyright © {currentYear} Aaron Gertler. All Rights Reserved.
+                © {currentYear} ARR
             </div>
 
             <ul id='socials'>
