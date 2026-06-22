@@ -1,9 +1,6 @@
 import { Header } from './components/Header/Header'
-import { Button } from './components/Button/Button'
 import { Footer } from './components/Footer/Footer'
-import Resume from './docs/aaron-gertler_resume.pdf'
 import { AiFillGithub } from 'react-icons/ai'
-import { FaFileDownload, } from 'react-icons/fa'
 import { 
   FaBitbucket,
   FaBootstrap,
@@ -59,10 +56,6 @@ import './App.sass'
 import { MdAltRoute } from 'react-icons/md'
 
 function App() {
-  function openResume() {
-      window.location.href = Resume
-  }
-
   return (
     <>
       <Header />
