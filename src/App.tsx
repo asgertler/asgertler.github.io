@@ -68,7 +68,8 @@ function App() {
       <Header />
 
       <div id='hero-container'>
-        <h2>Design Engineer</h2>
+        <h2>Here men from the planet Earth first set foot upon the Moon July 1969, A.D.</h2>
+        <h2>We came in peace for all mankind.</h2>
       </div>
 
       <div id='skills-container'>
