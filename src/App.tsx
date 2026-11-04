@@ -3,6 +3,10 @@ import { Button } from './components/Button/Button'
 import { Footer } from './components/Footer/Footer'
 import Resume from './docs/aaron-gertler_resume.pdf'
 import { AiFillGithub } from 'react-icons/ai'
+import {
+  DiIllustrator,
+  DiPhotoshop,
+} from 'react-icons/di'
 import { FaFileDownload, } from 'react-icons/fa'
 import { 
   FaBitbucket,
@@ -21,6 +25,7 @@ import {
   FaSass,
   FaYarn,
 } from 'react-icons/fa6'
+import { MdAltRoute } from 'react-icons/md'
 import { 
   // SiAdobeaftereffects,
   // SiAdobeillustrator, 
@@ -38,32 +43,31 @@ import {
   SiTailwindcss,
   SiTypescript,
 } from 'react-icons/si'
-import Alabama from './imgs/interests/alabama.svg'
-import Barons from './imgs/interests/barons.svg'
-import Baseball from './imgs/interests/baseball.svg'
-import Basketball from './imgs/interests/basketball.svg'
-import Beer from './imgs/interests/beer.svg'
-import Braves from './imgs/interests/braves.svg'
-import DIY from './imgs/interests/diy.svg'
-import DragonCon from './imgs/interests/dragoncon.svg'
-import Football from './imgs/interests/football.svg'
-import Gaming from './imgs/interests/gaming.svg'
-import Golf from './imgs/interests/golf.svg'
-import Hockey from './imgs/interests/hockey.svg'
-import Homelab from './imgs/interests/homelab.svg'
-import Kayak from './imgs/interests/kayak.svg'
-import Legion from './imgs/interests/legion.svg'
-import NashSC from './imgs/interests/nash-sc.svg'
-import Photo from './imgs/interests/photo.svg'
-import Pizza from './imgs/interests/pizza.svg'
-import Preds from './imgs/interests/preds.svg'
-import Sounds from './imgs/interests/sounds.svg'
-import Stallions from './imgs/interests/stallions.svg'
-import Terps from './imgs/interests/terps.svg'
-import Titans from './imgs/interests/titans.svg'
-import Travel from './imgs/interests/travel.svg'
+// import Alabama from './imgs/interests/alabama.svg'
+// import Barons from './imgs/interests/barons.svg'
+// import Baseball from './imgs/interests/baseball.svg'
+// import Basketball from './imgs/interests/basketball.svg'
+// import Beer from './imgs/interests/beer.svg'
+// import Braves from './imgs/interests/braves.svg'
+// import DIY from './imgs/interests/diy.svg'
+// import DragonCon from './imgs/interests/dragoncon.svg'
+// import Football from './imgs/interests/football.svg'
+// import Gaming from './imgs/interests/gaming.svg'
+// import Golf from './imgs/interests/golf.svg'
+// import Hockey from './imgs/interests/hockey.svg'
+// import Homelab from './imgs/interests/homelab.svg'
+// import Kayak from './imgs/interests/kayak.svg'
+// import Legion from './imgs/interests/legion.svg'
+// import NashSC from './imgs/interests/nash-sc.svg'
+// import Photo from './imgs/interests/photo.svg'
+// import Pizza from './imgs/interests/pizza.svg'
+// import Preds from './imgs/interests/preds.svg'
+// import Sounds from './imgs/interests/sounds.svg'
+// import Stallions from './imgs/interests/stallions.svg'
+// import Terps from './imgs/interests/terps.svg'
+// import Titans from './imgs/interests/titans.svg'
+// import Travel from './imgs/interests/travel.svg'
 import './App.sass'
-import { MdAltRoute } from 'react-icons/md'
 
 function App() {
   function openResume() {
@@ -75,8 +79,7 @@ function App() {
       <Header />
 
       <div id='hero-container'>
-        <h2>UI/UX Designer</h2>
-        <h2>Front-End Developer</h2>
+        <h2>Design Engineer</h2>
       </div>
 
       <div id='skills-container'>
@@ -88,11 +91,11 @@ function App() {
             <li className='skills-item'><FaPen /> Copywriting</li>
             <li className='skills-item'><FaFigma /> Figma</li>
             <li className='skills-item'><MdAltRoute /> Journey Mapping</li>
-            {/* <li className='skills-item'><SiAdobeillustrator /> Illustrator</li>
-            <li className='skills-item'><SiAdobeindesign /> InDesign</li>
-            <li className='skills-item'><SiAdobelightroom /> Lightroom</li>
-            <li className='skills-item'><SiAdobelightroomclassic /> Lightroom Classic</li>
-            <li className='skills-item'><SiAdobephotoshop /> Photoshop</li> */}
+            <li className='skills-item'><DiIllustrator /> Illustrator</li>
+            {/* <li className='skills-item'><DiIndesign /> InDesign</li> */}
+            {/* <li className='skills-item'><SiAdobelightroom /> Lightroom</li> */}
+            {/* <li className='skills-item'><SiAdobelightroomclassic /> Lightroom Classic</li> */}
+            <li className='skills-item'><DiPhotoshop /> Photoshop</li>
             {/* <li className='skills-item'><SiAdobepremierepro /> Premiere Pro</li> */}
             <li className='skills-item'><FaUser /> User Testing</li>
           </ul>
@@ -134,7 +137,7 @@ function App() {
         </div>
       </div>
 
-      <div className='section-break'></div>
+      {/* <div className='section-break'></div>
 
       <div className='interests-container'>
         <h2 id='interests-title'>Interests //</h2>
@@ -212,7 +215,7 @@ function App() {
             <img src={Travel} alt='Titans' className='interests-icon' /> Travel
           </li>
         </ul>
-      </div>
+      </div> */}
 
       <Footer />
     </>
